@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.contenedor-detalle {
+    display: flex;
+    align-items: stretch; /* Mantiene todos los elementos alineados verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    max-width: 1200px;
+    margin: 50px auto;
+    /* background-color: #ffffff; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden; /* Asegurarse de que nada salga del contenedor */
+}
+
+/* Sección de imagen del colaborador */
+.imagen-colaborador {
+    flex: 1;
+    min-width: 300px;
+    height: 100%;
+    overflow: hidden; /* Para evitar que la imagen se salga del contenedor */
+    display: flex;  /* Asegura que la imagen se estire correctamente */
+    align-items: stretch; /* Mantiene la imagen estirada */
+}
+
+.imagen-colaborador img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar la imagen para que cubra todo el contenedor */
+    object-position: center; /* Centrar la imagen dentro del contenedor */
+    display: block; /* Asegura que la imagen no tenga espacio extra como sucede con inline elements */
+}
+
+/* Contenido del colaborador */
+.contenido-colaborador {
+    flex: 1.5;
+    padding: 40px;
+    min-width: 300px;
+    background-color: #f0f4f8;
+    overflow-y: auto; /* Añadir scroll si el contenido es demasiado grande */
+    max-height: 100%;
+
+}
+
+.contenido-colaborador h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Sección del acordeón */
+.seccion {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.descripcion {
+    display: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Botón de leer más */
+.leer-mas {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.leer-mas:hover {
+    background-color: #0056b3;
+}

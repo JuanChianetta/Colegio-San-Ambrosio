@@ -1,0 +1,77 @@
+/* Contenedor general */
+.contenedor-colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjeta de cada colaborador */
+.colaborador {
+    width: 100%;
+    max-width: 300px;  /* Limitar el tamaño máximo de la tarjeta */
+    background-color: #ffffff;  /* Fondo blanco */
+    border-radius: 15px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave para darle profundidad */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;  /* Para que las imágenes y contenido no se salgan de la tarjeta */
+    cursor: pointer;  /* Mostrar el puntero de interacción */
+}
+
+.colaborador:hover {
+    transform: translateY(-10px);  /* Elevar la tarjeta al pasar el cursor */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);  /* Aumentar la sombra para dar énfasis */
+}
+
+.colaborador img {
+    width: 100%;  /* Imagen de ancho completo */
+    height: 200px;
+    object-fit: cover;  /* Recortar la imagen para llenar el espacio sin deformarse */
+}
+
+.colaborador .contenido {
+    padding: 15px;
+}
+
+.colaborador h3 {
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+    font-weight: bold;  /* Resaltar el título */
+    color: #333;  /* Color del texto */
+}
+
+.colaborador p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Estilo del progreso si decides incluirlo */
+.progreso {
+    height: 8px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    position: relative;
+}
+
+.progreso .barra {
+    height: 100%;
+    width: 50%; /* Cambiar dinámicamente según el progreso */
+    background-color: #007bff;  /* Azul para indicar el progreso */
+    border-radius: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .colaborador {
+        flex: 1 1 calc(50% - 20px);  /* En pantallas medianas, muestra dos colaboradores por fila */
+    }
+}
+
+@media (max-width: 480px) {
+    .colaborador {
+        flex: 1 1 100%;  /* En pantallas pequeñas, muestra un colaborador por fila */
+    }
+}

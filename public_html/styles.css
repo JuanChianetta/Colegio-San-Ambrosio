@@ -1,0 +1,870 @@
+/*
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-medium {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+*/
+
+
+/* Estilos para la barra superior */
+.top-bar {
+  background-color: #002c4f; /* Color rojo oscuro */
+  color: white;
+  font-size: 0.9rem;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1040; /* Más alto que el resto */
+  margin: 0; /* Sin margen */
+  border-bottom: none; /* Asegúrate de que no haya borde */
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+/*======================PRELOAD======================*/
+/* 
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('ruta_de_tu_fondo.jpg') no-repeat center center/cover;
+  font-family: 'Arial', sans-serif;
+}
+
+.preloader {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.logo-top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo-top-left img {
+  width: 100px; 
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content .isologo {
+  width: 150px; 
+  margin-bottom: 20px;
+}
+
+.center-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.center-content button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.center-content button:hover {
+  background-color: #ddd;
+} */
+
+
+/* Barra de navegación */
+.bg-red {
+  background-color: #003B6B; /* Color rojo de fondo */
+  position: fixed;
+  top: 31px; /* Justo debajo de la barra superior */
+  width: 100%;
+  z-index: 1039; /* Justo debajo de la barra superior */
+  margin: 0; /* Sin margen */
+  padding: 0; /* Elimina cualquier padding superior/inferior */
+  border: none; /* Asegúrate de que no haya borde */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  position: relative; /* Necesario para el uso del pseudo-elemento */
+  font-family: "Nanum Myeongjo", serif;
+  font-size: large;
+  margin-right: 15px;
+  text-decoration: none; /* Remueve subrayado predeterminado */
+  color: white; /* Asegúrate de que el texto sea visible */
+}
+
+.nav-link-admisiones {
+  position: relative; /* Necesario para el uso del pseudo-elemento */
+  font-family: "Nanum Myeongjo", serif;
+  font-size: large;
+  margin-right: 15px;
+  text-decoration: none; /* Remueve subrayado predeterminado */
+  color: white; /* Asegúrate de que el texto sea visible */
+}
+
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  transition: width 0.4s ease, left 0.4s ease; /* Controla la animación */
+}
+
+.navbar-nav .nav-link:hover::before {
+    width: 70%; /* Expande el subrayado al 70% del ancho del enlace */
+    left: 15%; /* Ajusta la posición para que quede centrado */
+}
+
+.btn-outline-light {
+  color: #ffffff !important;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #003B6B !important;
+}
+
+/* Dropdown personalizado */
+.navbar-nav .dropdown-menu {
+  background-color: #fffffff1; /* Color rojo de fondo para el dropdown */
+  border: none; /* Elimina el borde */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #003B6B; /* Texto en blanco */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #003B6B; /* Color de fondo al hacer hover */
+  color: #ffffff; /* Texto en blanco al hacer hover */
+}
+
+  .logo{
+    margin:10px 0px;
+  }
+  /* Elimina el espacio en blanco entre la barra superior y el navbar */
+  body {
+    margin-top: 80px; /* Ajuste del margen para evitar superposición de contenido */
+  }
+
+  .navbar {
+    box-shadow: 0 8px 5px -2px rgba(0, 0, 0, 0.56); /* Sombra sutil */
+  }
+
+
+
+  /* Ajuste de altura del carrusel */
+  .carousel-item {
+    height: 90vh;
+    min-height: 600px;
+    background: no-repeat center center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* Texto superpuesto */
+  .carousel-caption {
+    background-color: rgba(99, 99, 99, 0.4); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 20%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+
+  .pilares {
+    text-align: center;
+    margin-top: 40px;
+}
+.pilares h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.pilares p {
+    font-size: 1.2rem;
+}
+.icono-circulo {
+    background-color: #003B6B; /* Color rojo */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+.icono-circulo img {
+    width: 60%;
+}
+
+
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(255, 87, 34, 0.7); Color naranja translúcido */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.color-green{
+  background-color: rgba(92, 194, 48, 0.7);
+}
+.color-orange{
+  background-color: rgba(255, 87, 34, 0.7);
+}
+.color-lightblue{
+  background-color: rgba(0, 157, 255, 0.7);
+}
+.color-blue{
+  background-color: rgba(0, 68, 255, 0.7);
+}
+
+.overlay h3, .overlay p {
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1rem;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.carousel-item {
+  padding: 15px;
+}
+
+.news-card {
+  position: relative; /* Añadir esta línea */
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-card-body {
+  padding: 15px;
+}
+
+.news-card-body h5 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.news-card-body p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-card-footer {
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  text-align: right;
+  border-top: 1px solid #e0e0e0;
+}
+
+.news-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px; /* Ajusta la altura según tus necesidades */
+  border: none;
+}
+
+
+.footer {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer .footer-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer a {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer .footer-social-icons a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: white;
+}
+
+.footer-bottom {
+  background-color: #2b2b2b;
+  padding: 10px 0;
+  text-align: center;
+  color: #dcdcdc;
+}
+
+/* Imagen de fondo transparente */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  background: url('logo-semitransparente.png') no-repeat center;
+  background-size: cover;
+  opacity: 0.1; /* Ajusta la opacidad para que sea semi-transparente */
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 450px; /* Ajusta la altura según tus necesidades */
+  /* background-image: url('./imagenes/admisiones.jpg'); Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* ADMISIONES */
+
+/* Banner de Admisiones */
+.admisiones-banner {
+  position: relative;
+  width: 100%;
+  height: 450px; /* Ajusta la altura según tus necesidades */
+  background-image: url('./imagenes/admisiones.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Capa de superposición oscura */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinea a la izquierda */
+  padding-left: 50px; /* Ajusta el espacio desde la izquierda */
+}
+
+.banner-overlay h1 {
+  color: white;
+  font-size: 4rem; /* Tamaño del texto */
+  font-weight: bold;
+  opacity: 0; /* Inicialmente invisible */
+  transform: translateY(50px); /* Posición inicial fuera de la pantalla (abajo) */
+  animation: slideUp 1s ease-in-out forwards; /* Animación */
+}
+
+/* Animación de aparición desde abajo */
+@keyframes slideUp {
+  to {
+      opacity: 1; /* Hacer visible */
+      transform: translateY(0); /* Animar hacia su posición original */
+  }
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+  padding: 50px 0; /* Espaciado superior e inferior */
+  text-align: center; /* Asegura que el título esté centrado */
+}
+
+.welcome-title {
+  font-size: 2.5rem; /* Ajusta el tamaño del título */
+  font-weight: bold;
+  margin-bottom: 20px; /* Espaciado entre el título y el subtítulo */
+}
+
+.welcome-subtitle {
+  font-size: 1.2rem; /* Tamaño del subtítulo */
+  text-align: center; /* Alineación a la izquierda */
+  margin: 0 auto;
+  /* max-width: 800px; Limita el ancho del subtítulo para que no ocupe todo el espacio */
+}
+
+/* <contacto> */
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #c32025;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #ff4f4f;
+}
+
+textarea {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  padding: 10px; /* Igual que los otros campos */
+  border: 1px solid #ccc; /* Igual que los otros campos */
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: none; /* Evita que el textarea se redimensione */
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #c32025; /* Color de borde al hacer foco */
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+/* </contacto> */
+
+/* <Nosotros> */
+/* --------------COLABORADORES------------------- */
+
+.collaborator-card {
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.collaborator-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.collaborator-image {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.collaborator-card:hover .collaborator-image {
+  transform: scale(1.1);
+}
+
+.card-body {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.card-title {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.card-text {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+  text-align: left;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.btn-link i {
+  font-size: 1.25rem;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.btn-link:hover i {
+  transform: translateX(5px);
+}
+
+.row-container{
+  padding-bottom: 50px;
+}
+
+/* --------------FIN - COLABORADORES------------------- */
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 400px; /* Altura fija para normalizar las imágenes */
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-subtitle {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.mosaico {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+  grid-gap: 10px; /* Espacio entre las imágenes */
+}
+
+.mosaico img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Variaciones de tamaño para las imágenes del mosaico */
+.img-large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.img-medium {
+  grid-column: span 2;
+}
+
+.img-small {
+  grid-column: span 1;
+}
+
+/* Título de la sección */
+.federados-titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* </nosotros> */
+
+
+/* </ADMISIONES> */
+
+/* <Secundaria> */
+
+.custom-banner-section {
+  position: relative;
+  background-image: url('./imagenes/sennior.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Ajusta según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-overlay {
+  background-color: rgba(0, 47, 108, 0.8); /* Color azul translúcido */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-content {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.custom-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.custom-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+/* Estilo personalizado para el toast */
+#toastContainer {
+  position: fixed; /* Flotante sobre la página */
+  top: 20px; /* Margen superior */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Ajustar el centrado */
+  z-index: 1050; /* Asegurarnos de que esté por encima del contenido */
+  width: auto; /* Ajustar el tamaño automáticamente */
+  max-width: 600px; /* Tamaño máximo */
+}
+
+.toast-body.success {
+  color: green; /* Texto en verde para éxito */
+  font-size: 1rem; /* Aumentar tamaño de la fuente */
+}
+
+.toast-body.error {
+  color: red; /* Texto en rojo para error */
+  font-size: 1rem; /* Aumentar tamaño de la fuente */
+}
+
+/*  </SECUNDARIA> */
+
+
+  /* Estilos específicos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      display: block;
+      color: white;
+      text-align: left;
+      padding: 10px 15px;
+      opacity: 1;
+    }
+    
+    .footer::before {
+      width: 200px;
+      height: 200px;
+    }
+
+    .bg-red{
+      top:0px;
+    }
+
+    .top-bar{
+      display: none;
+    }
+
+    .mosaico {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+  }
+
+  .colaborador {
+    flex: 1 1 calc(50% - 40px);  /* En pantallas medianas, muestra dos colaboradores por fila */
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .footer::before {
+      display: none;
+  }
+
+  .mosaico {
+    grid-template-columns: 1fr; /* 1 columna en pantallas muy pequeñas */
+  }
+
+  .colaborador {
+    flex: 1 1 100%;  /* En pantallas pequeñas, muestra un colaborador por fila */
+  }
+}
