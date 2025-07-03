@@ -77,11 +77,11 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Matías Fraile</h2>
+            <p>Licenciado en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/matias_fraile.jpg" alt="Foto de Matías Fraile">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,22 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Técnico en Comunicación y Psicología Social</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Operador en Psicología Social</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Coaching y PNL</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Master en Dirección de Recursos Humanos</strong>
+            </li>
+            <li>
+                <strong>Master en Gestión y Dirección de Equipos</strong>
+            </li>
+            <li>
+                <strong>Master en Dirección Estratégica en Organizaciones de Salud</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +144,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

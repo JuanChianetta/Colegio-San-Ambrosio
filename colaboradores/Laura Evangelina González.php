@@ -77,11 +77,11 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Laura Evangelina González</h2>
+            <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/laura_gonzalez.jpg" alt="Foto de Laura Evangelina González">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,19 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Licenciada en Gestión de Instituciones Educativas</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Técnica Superior en Psicología Social</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Profesora de Psicología Social</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Formación Pedagógica para Profesionales</strong>
+            </li>
+            <li>
+                <strong>Counselor – Consultora Psicológica</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +141,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

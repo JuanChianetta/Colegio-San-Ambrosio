@@ -77,11 +77,11 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Gustavo Osano Aquino</h2>
+            <p>Licenciado en Psicopedagogía</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/gustavo_osano.jpg" alt="Foto de Gustavo Osano Aquino">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,31 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Psicólogo Social</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Diplomado en ESI</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Especialista en Educación de Jóvenes y Adultos</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Especialista en Educación de Contextos de Encierro</strong>
+            </li>
+            <li>
+                <strong>Tramo de Formación Pedagógica para Nivel Superior</strong>
+            </li>
+            <li>
+                <strong>Profesor en Lengua y Literatura</strong>
+            </li>
+            <li>
+                <strong>Bibliotecólogo</strong>
+            </li>
+            <li>
+                <strong>Bibliotecario de Instituciones Educativas</strong>
+            </li>
+            <li>
+                <strong>Profesor de EGB1 y 2</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +153,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

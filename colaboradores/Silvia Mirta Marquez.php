@@ -77,33 +77,16 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Silvia Mirta Marquez</h2>
+            <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/silvia_marquez.jpg" alt="Foto de Silvia Mirta Marquez">
             <div class="foto-overlay"></div>
         </div>
     </section>
     <section class="quote-banner">
         <p>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."</p>
-    </section>
-    <section class="trayectoria-section">
-        <h2 class="trayectoria-title">Trayectoria</h2>
-        <ul class="trayectoria-list">
-            <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
-            </li>
-            <li>
-                <strong>Profesora de Yoga</strong>
-            </li>
-            <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
-            </li>
-            <li>
-                <strong>Fonoaudióloga</strong>
-            </li>
-        </ul>
     </section>
     <style>
         .trayectoria-section {
@@ -138,13 +121,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

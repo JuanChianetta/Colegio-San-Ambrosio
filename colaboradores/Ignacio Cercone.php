@@ -77,11 +77,11 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Ignacio Cercone</h2>
+            <p>Licenciado en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/ignacio_cercone.jpg" alt="Foto de Ignacio Cercone">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,25 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Postgrado en Psicoanálisis</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Centro de Salud Mental N° 3</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Actor Nacional - Egresado de la UNA</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Conservatorio Nacional de Arte Dramático</strong>
+            </li>
+            <li>
+                <strong>Curso de Teatro Pompeyo Audert</strong>
+            </li>
+            <li>
+                <strong>Curso de Teatro Escuela La Odisea</strong>
+            </li>
+            <li>
+                <strong>Taller: Gimnasio de Improvisación en Camarín de las Musas</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +147,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

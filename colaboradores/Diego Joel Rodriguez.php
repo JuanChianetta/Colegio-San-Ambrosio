@@ -76,12 +76,12 @@
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h1>Coordinador de carrera</h1>
+            <h2>Diego Joel Rodriguez</h2>
+            <p>Operador en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/diego_rodriguez.jpg" alt="Foto de Diego Joel Rodriguez">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,25 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Técnico en Comunicación Social</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Diplomatura en Educación Sexual Integral</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Programador Neurolingüístico</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Coach Ontológico</strong>
+            </li>
+            <li>
+                <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
+            </li>
+            <li>
+                <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
+            </li>
+            <li>
+                <strong>Mindfulness Master</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +147,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;

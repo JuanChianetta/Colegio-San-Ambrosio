@@ -77,11 +77,11 @@
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Jorge Guzmán</h2>
+            <p>Abogado</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="../public_html/imagenes/jorge_guzman.jpg" alt="Foto de Jorge Guzmán">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,46 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Licenciado en Seguridad Ciudadana</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Psicólogo Social</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Master Internacional en Psicología Social y Coordinación Grupal de la Universidad Popular Argentina, avalado por el Centro UNESCO de Madrid</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Curso de Primeros Auxilios Psicológicos</strong>
+            </li>
+            <li>
+                <strong>Curso de Primeros Auxilios y RCP</strong>
+            </li>
+            <li>
+                <strong>Curso de Investigación de la Escena del Crimen</strong>
+            </li>
+            <li>
+                <strong>Curso de Homicidios</strong>
+            </li>
+            <li>
+                <strong>Curso de Instructor de Fuerzas Policiales</strong>
+            </li>
+            <li>
+                <strong>Curso de Drogas Peligrosas</strong>
+            </li>
+            <li>
+                <strong>Diplomatura en Derecho Laboral</strong>
+            </li>
+            <li>
+                <strong>Diplomatura en Derecho Penal</strong>
+            </li>
+            <li>
+                <strong>Curso de Psicoanálisis</strong>
+            </li>
+            <li>
+                <strong>Curso para Ascensos de la Policía de la Ciudad en el ISSP</strong>
+            </li>
+            <li>
+                <strong>Curso a los Cadetes de la Policía de la Ciudad</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +168,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;
