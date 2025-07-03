@@ -12,7 +12,7 @@
             </a>
             <i class="bi bi-telephone"></i> (54-11) 4899-0577
             <span class="mx-2">|</span>
-            <i class="bi bi-envelope"></i> <a href="mailto:contacto@institutosanambrosio.com<">contacto@institutosanambrosio.com</a>
+            <i class="bi bi-envelope"></i> <a href="mailto:contacto@institutosanambrosio.com">contacto@institutosanambrosio.com</a>
         </div>
     </div>
 </div>
@@ -20,8 +20,8 @@
 <!-- Navbar principal -->
 <nav class="navbar navbar-expand-lg navbar-light bg-red">
   <div class="container">
-    <a class="navbar-brand" href="index.php">
-      <img class="logo" src="./imagenes/SAN_AMBROSIO_NOMBRE_BLANCO.png" alt="Colegio San Ambrosio" height="70">
+    <a class="navbar-brand" href="/public_html/index.php">
+      <img class="logo" src="/public_html/imagenes/SAN_AMBROSIO_NOMBRE_BLANCO.png" alt="Colegio San Ambrosio" height="70">
       <!-- <span class="text-white">Colegio San Ambrosio</span> -->
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,20 +39,20 @@
             N I V E L E S
           </a>
           <ul class="dropdown-menu" aria-labelledby="nivelesDropdown">
-            <li><a class="dropdown-item" href="./psicologia_social.php">Psicología Social</a></li>
-            <li><a class="dropdown-item" href="./prof_educacion_inicial.php">Profesorado de Educación Inicial</a></li>
-            <li><a class="dropdown-item" href="./tramo_pedagogico.php">Tramo Pedagogico</a></li>
-            <li><a class="dropdown-item" href="./secundaria.php">Secundario</a></li>
+            <li><a class="dropdown-item" href="/public_html/psicologia_social.php">Psicología Social</a></li>
+            <li><a class="dropdown-item" href="/public_html/prof_educacion_inicial.php">Profesorado de Educación Inicial</a></li>
+            <li><a class="dropdown-item" href="/public_html/tramo_pedagogico.php">Tramo Pedagogico</a></li>
+            <li><a class="dropdown-item" href="/public_html/secundaria.php">Secundario</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="./propuestas.php">CARRERAS Y SECUNDARIO</a>
+          <a class="nav-link text-white" href="/public_html/propuestas.php">CARRERAS Y SECUNDARIO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="./contacto.php">C O N T A C T O</a>
+          <a class="nav-link text-white" href="/public_html/contacto.php">C O N T A C T O</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-admisiones btn btn-outline-light" href="./admisiones.php">A D M I S I O N E S</a>
+          <a class="nav-link-admisiones btn btn-outline-light" href="/public_html/admisiones.php">A D M I S I O N E S</a>
         </li>
       </ul>
     </div>

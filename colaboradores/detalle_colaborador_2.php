@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Colaborador</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../public_html/styles.css">
     <style>
 
         .colaborador-detalle {
@@ -83,7 +83,7 @@
 </head>
 <body>
 
-    <?php include "nav.php"; ?>
+    <?php include '../public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
@@ -92,7 +92,7 @@
             <p>Ph.D Academic Doctor of Philological Sciences</p>
         </div>
         <div class="colaborador-foto">
-            <img src="./imagenes/pexels-colaborador-2.jpg" alt="Foto del Colaborador">
+            <img src="../public_html/imagenes/pexels-colaborador-2.jpg" alt="Foto del Colaborador">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -228,7 +228,7 @@
 </script>
 
 
-    <?php include "footer.php"; ?>
+    <?php include '../public_html/footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -34,7 +34,7 @@
             <div class="row row-container">
                 <!-- Tarjeta 1 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_1.php')">
                         <img src="./imagenes/pexels-colaborador-1.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Andrea Baccarelli</h5>
@@ -46,7 +46,7 @@
 
                 <!-- Tarjeta 2 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/pexels-colaborador-2.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Juan Domínguez</h5>
