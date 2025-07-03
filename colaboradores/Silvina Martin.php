@@ -81,7 +81,7 @@
             <p>Profesora de Nivel Inicial</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Silvina Martin.jpg" alt="Foto de Silvina Martin">
+            <img src="/public_html/imagenes/Silvia Martin.png" alt="Foto de Silvina Martin">
             <div class="foto-overlay"></div>
         </div>
     </section>

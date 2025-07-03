@@ -81,7 +81,7 @@
             <p>Profesora Nivel Inicial</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/María Paz López.jpg" alt="Foto de María Paz López">
+            <img src="/public_html/imagenes/María Paz López.png" alt="Foto de María Paz López">
             <div class="foto-overlay"></div>
         </div>
     </section>

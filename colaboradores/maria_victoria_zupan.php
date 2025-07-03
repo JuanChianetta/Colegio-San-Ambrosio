@@ -81,7 +81,7 @@
             <p>Licenciada en Educación Inicial</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/maria_victoria_zupan.jpg" alt="Foto de María Victoria Zupan">
+            <img src="/public_html/imagenes/María Victoria Zupan.jpg" alt="Foto de María Victoria Zupan">
             <div class="foto-overlay"></div>
         </div>
     </section>

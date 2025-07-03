@@ -81,7 +81,7 @@
             <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Sheila Gómez Kairuz.jpg" alt="Foto de Sheila Gómez Kairuz">
+            <img src="/public_html/imagenes/Sheila Gómez Kairuz.png" alt="Foto de Sheila Gómez Kairuz">
             <div class="foto-overlay"></div>
         </div>
     </section>
