@@ -222,7 +222,7 @@
 
                 <!-- Tarjeta 3 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/María José Sgalia.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">María José Sgalia</h5>
@@ -233,7 +233,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Adrine Seghpoian.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Adrine Seghpoian</h5>
@@ -243,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Silvia Martin.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Silvia Martin</h5>
@@ -253,7 +253,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Hernán Mirácolo.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Hernán Mirácolo</h5>
@@ -263,7 +263,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Sheila Gómez Kairuz.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Sheila Gómez Kairuz</h5>
@@ -273,7 +273,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Matías Napoli.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Matías Napoli</h5>
@@ -283,7 +283,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/María Genoveva Dariozzi.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">María Genoveva Dariozzi</h5>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Lucrecia Marcela Moreno.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Lucrecia Marcela Moreno</h5>
@@ -303,7 +303,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Karina Androvich.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Karina Androvich</h5>
@@ -313,7 +313,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/María Paz López.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">María Paz López</h5>

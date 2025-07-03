@@ -181,7 +181,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
             <div class="row row-container">
                 <!-- Tarjeta 1 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador_1.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Gabriela_maria_romero.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Gabriela María Romero</h5>
@@ -193,7 +193,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
 
                 <!-- Tarjeta 2 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador_2.php')">
+                     <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/María Victoria Zupan.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">María Vicuña Zupan</h5>
@@ -205,7 +205,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
 
                 <!-- Tarjeta 3 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                     <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Diego Joel Rodriguez.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Diego Joel Rodriguez</h5>
@@ -216,7 +216,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Andrea Faseli.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Andrea Faseli</h5>
@@ -226,7 +226,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Gustavo Osano Aquino.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Gustavo Osano Aquino</h5>
@@ -236,7 +236,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Christian Ezequiel Vodopivec.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Christian Ezequiel Vodopivec</h5>
@@ -246,7 +246,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Silvia Mirta Marquez.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Silvia Mirta Marquez</h5>
@@ -256,7 +256,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Laura Evangelina González.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Laura Evangelina González</h5>
@@ -266,7 +266,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Hernan Miracolo.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Hernan Miracolo</h5>
@@ -276,7 +276,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Miriam Arias.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Miriam Arias</h5>
@@ -286,7 +286,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Karina Androvich.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Karina Androvich</h5>
@@ -296,7 +296,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Jorge Guzman.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Jorge Guzman</h5>
@@ -306,7 +306,7 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/detalle_colaborador_2.php')">
                         <img src="./imagenes/Ignacio Cercone.jpg" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Ignacio Cercone</h5>
