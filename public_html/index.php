@@ -31,8 +31,8 @@
     <!-- Primera Imagen -->
     <div class="carousel-item active" style="background-image: url('./imagenes/edt/edt_img_deco_2.jpg');">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Educación Bilingüe</h5>
-        <p>Va más allá que hablar un segundo idioma; implica enfocar la realidad de determinada manera...</p>
+        <h5>Educación de Calidad</h5>
+        <p>La importancia de aprender enseñando</p>
       </div>
     </div>
     <!-- Segunda Imagen -->
