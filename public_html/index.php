@@ -133,123 +133,6 @@
         </div>
     </div>
 </div>
-
-
-
-<!-- <div class="container my-5">
-    <h2 class="mb-4">Novedades</h2>
-    <div id="novedadesCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row">
-                    Novedad 1
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/equipo.jpg" alt="Novedad 1">
-                            <div class="news-card-body">
-                                <div class="news-tag">Senior School</div>
-                                <p class="news-date">28 de Agosto 2024</p>
-                                <h5>Tres alumnos de FDS fueron premiados con cuatro distinciones...</h5>
-                                <p>Con mucha alegría queremos compartirles que tres alumnos de FDS obtuvieron...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                    Novedad 2
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/kinder-celebracion.jpg" alt="Novedad 2">
-                            <div class="news-card-body">
-                                <div class="news-tag" style="background-color: #8bc34a;">Kindergarten</div>
-                                <p class="news-date">10 de Julio 2024</p>
-                                <h5>Así celebramos el Día de la Independencia en nuestro Kinder</h5>
-                                <p>Los alumnos/as de K5A, junto a sus familias, disfrutaron de una jornada especial...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                    Novedad 3
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/vela-torneo.jpg" alt="Novedad 3">
-                            <div class="news-card-body">
-                                <div class="news-tag" style="background-color: #d32f2f;">Institucional</div>
-                                <p class="news-date">03 de Julio 2024</p>
-                                <h5>¡Alumnos de FDS representando a Argentina en el Mundial!</h5>
-                                <p>Felicitaciones a Vicente Carloni, alumno de M2, por coronarse campeón en...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            Más items del carrusel pueden ir aquí
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/equipo.jpg" alt="Novedad 1">
-                            <div class="news-card-body">
-                                <div class="news-tag">Senior School</div>
-                                <p class="news-date">28 de Agosto 2024</p>
-                                <h5>Tres alumnos de FDS fueron premiados con cuatro distinciones...</h5>
-                                <p>Con mucha alegría queremos compartirles que tres alumnos de FDS obtuvieron...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/kinder-celebracion.jpg" alt="Novedad 2">
-                            <div class="news-card-body">
-                                <div class="news-tag" style="background-color: #8bc34a;">Kindergarten</div>
-                                <p class="news-date">10 de Julio 2024</p>
-                                <h5>Así celebramos el Día de la Independencia en nuestro Kinder</h5>
-                                <p>Los alumnos/as de K5A, junto a sus familias, disfrutaron de una jornada especial...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="news-card">
-                            <img src="./imagenes/vela-torneo.jpg" alt="Novedad 3">
-                            <div class="news-card-body">
-                                <div class="news-tag" style="background-color: #d32f2f;">Institucional</div>
-                                <p class="news-date">03 de Julio 2024</p>
-                                <h5>¡Alumnos de FDS representando a Argentina en el Mundial!</h5>
-                                <p>Felicitaciones a Vicente Carloni, alumno de M2, por coronarse campeón en...</p>
-                            </div>
-                            <div class="news-card-footer">
-                                <a href="#" class="btn btn-outline-primary btn-sm">LEER MÁS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#novedadesCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#novedadesCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-</div> -->
-
-
     <section class="custom-banner-section" style="margin: 30px 0px; background: url('./imagenes/pexels-equipo2.jpg') !important;">
         <div class="custom-overlay">
             <div class="custom-content">
@@ -277,7 +160,7 @@
 <?php include "footer.php"?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
 
 <link rel="stylesheet" href="preload.css">
 <div class="content-fade">
@@ -296,5 +179,7 @@
         </div>
     </div>
     
-    
+</div>   
+</body>
+
 </html>

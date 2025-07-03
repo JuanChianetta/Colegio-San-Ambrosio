@@ -21,7 +21,10 @@
     </section>
     <section class="welcome-section">
         <div class="container">
-            <h1 class="welcome-title">¡Bienvenidos!</h1>
+            <h1 class="welcome-title">¡Bienvenidos !</h1>
+
+
+            
             <p class="welcome-subtitle">Para comenzar con el proceso de admisión, por favor ingrese a: <a href="#">enlace</a></p>
         </div>
     </section>
