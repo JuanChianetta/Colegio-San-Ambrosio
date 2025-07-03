@@ -95,7 +95,7 @@
     <div class="row g-0">
         <!-- Imagen 1 -->
         <div class="col-md-4">
-            <a href="pagina1.html">
+            <a href="./secundaria.php">
                 <div class="image-container">
                     <img src="./imagenes/edt/img_secundaria_9_edt.JPG" alt="Imagen 1">
                     <div class="overlay color-green">
