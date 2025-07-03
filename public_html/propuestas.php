@@ -130,7 +130,7 @@
 </head>
 
 <body>
-    <?php include 'nav.php'; ?>
+    <?php include "nav.php"; ?>
     <!-- Banner -->
     <section class="banner" style="background-image: url('./imagenes/pexels-auditorio.jpg');">
         <div class="banner-overlay">
@@ -177,6 +177,9 @@
         <button class="viewer-button viewer-print" onclick="printPdf()">Imprimir</button>
         <button class="viewer-button viewer-close" onclick="closePdfViewer()">Cerrar</button>
     </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script>
         let currentPdfUrl = '';
