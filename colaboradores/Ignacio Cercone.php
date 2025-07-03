@@ -81,7 +81,7 @@
             <p>Licenciado en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/ignacio_cercone.jpg" alt="Foto de Ignacio Cercone">
+            <img src="/public_html/imagenes/Ignacio Cercone.jpg" alt="Foto de Ignacio Cercone">
             <div class="foto-overlay"></div>
         </div>
     </section>

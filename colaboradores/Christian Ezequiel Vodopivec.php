@@ -81,7 +81,7 @@
             <p>Profesor de Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/christian_vodopivec.jpg" alt="Foto de Christian Ezequiel Vodopivec">
+            <img src="/public_html/imagenes/Christian Ezequiel Vodopivec.jpg" alt="Foto de Christian Ezequiel Vodopivec">
             <div class="foto-overlay"></div>
         </div>
     </section>

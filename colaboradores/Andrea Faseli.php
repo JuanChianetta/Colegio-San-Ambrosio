@@ -81,7 +81,7 @@
             <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/andrea_faseli.jpg" alt="Foto de Andrea Faseli">
+            <img src="/public_html/imagenes/Andrea Faseli.jpg" alt="Foto de Andrea Faseli">
             <div class="foto-overlay"></div>
         </div>
     </section>

@@ -81,7 +81,7 @@
             <p>Profesora Especializada en Educación Inicial</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/lucrecia_moreno.jpg" alt="Foto de Lucrecia Marcela Moreno">
+            <img src="/public_html/imagenes/Lucrecia Marcela Moreno.jpg" alt="Foto de Lucrecia Marcela Moreno">
             <div class="foto-overlay"></div>
         </div>
     </section>

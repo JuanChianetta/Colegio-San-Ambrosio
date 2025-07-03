@@ -81,7 +81,7 @@
             <p>Profesor de Historia y Licenciado en Ciencias de la Comunicación</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/matias_napoli.jpg" alt="Foto de Matías Napoli">
+            <img src="/public_html/imagenes/Matías Napoli.jpg" alt="Foto de Matías Napoli">
             <div class="foto-overlay"></div>
         </div>
     </section>

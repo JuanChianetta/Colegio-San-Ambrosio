@@ -81,7 +81,7 @@
             <p>Licenciado en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/matias_fraile.jpg" alt="Foto de Matías Fraile">
+            <img src="/public_html/imagenes/Matías Fraile.jpg" alt="Foto de Matías Fraile">
             <div class="foto-overlay"></div>
         </div>
     </section>

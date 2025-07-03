@@ -81,7 +81,7 @@
             <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/silvia_marquez.jpg" alt="Foto de Silvia Mirta Marquez">
+            <img src="/public_html/imagenes/Silvia Mirta Marquez.jpg" alt="Foto de Silvia Mirta Marquez">
             <div class="foto-overlay"></div>
         </div>
     </section>

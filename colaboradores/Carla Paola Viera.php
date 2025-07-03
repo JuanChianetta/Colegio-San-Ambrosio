@@ -81,7 +81,7 @@
             <p>Facilitadora Tecnológica</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/carla_viera.jpg" alt="Foto de Carla Paola Viera">
+            <img src="/public_html/imagenes/Carla Paola Viera.jpg" alt="Foto de Carla Paola Viera">
             <div class="foto-overlay"></div>
         </div>
     </section>

@@ -76,12 +76,12 @@
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Coordinador de carrera</h1>
-            <h2>Diego Joel Rodriguez</h2>
-            <p>Operador en Psicología Social</p>
+            <h1>Docente</h1>
+            <h2>Sheila Gómez Kairuz</h2>
+            <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Diego Joel Rodriguez.png" alt="Foto de Diego Joel Rodriguez">
+            <img src="/public_html/imagenes/Sheila Gómez Kairuz.jpg" alt="Foto de Sheila Gómez Kairuz">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,25 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Técnico en Comunicación Social</strong>
+                <strong>Licenciada en Psicología</strong>
             </li>
             <li>
-                <strong>Diplomatura en Educación Sexual Integral</strong>
+                <strong>Especialización en Psicología Clínica</strong>
             </li>
             <li>
-                <strong>Programador Neurolingüístico</strong>
+                <strong>Docente en Universidad de Buenos Aires</strong>
             </li>
             <li>
-                <strong>Coach Ontológico</strong>
-            </li>
-            <li>
-                <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
-            </li>
-            <li>
-                <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
-            </li>
-            <li>
-                <strong>Mindfulness Master</strong>
+                <strong>Coordinadora de Prácticas Profesionales</strong>
             </li>
         </ul>
     </section>
@@ -147,6 +138,13 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
+        }
+        .trayectoria-list em {
+            font-style: italic;
+            font-size: 1rem;
+            color: #555;
+            margin-top: 5px;
+            display: block;
         }
         .in-view {
             visibility: visible;

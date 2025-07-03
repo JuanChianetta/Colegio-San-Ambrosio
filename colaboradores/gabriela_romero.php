@@ -81,7 +81,7 @@
             <p>Doctora en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/gabriela_romero.jpg" alt="Foto de Gabriela María Romero">
+            <img src="/public_html/imagenes/gabriela_romero.jpg" alt="Foto de Gabriela María Romero">
             <div class="foto-overlay"></div>
         </div>
     </section>

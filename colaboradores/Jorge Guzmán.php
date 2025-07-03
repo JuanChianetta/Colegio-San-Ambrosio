@@ -81,7 +81,7 @@
             <p>Abogado</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/jorge_guzman.jpg" alt="Foto de Jorge Guzmán">
+            <img src="/public_html/imagenes/Jorge Guzman.jpg" alt="Foto de Jorge Guzmán">
             <div class="foto-overlay"></div>
         </div>
     </section>

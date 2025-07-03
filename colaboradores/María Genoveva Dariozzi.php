@@ -81,7 +81,7 @@
             <p>Licenciada en Ciencias de la Educación</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/maria_dariozzi.jpg" alt="Foto de María Genoveva Dariozzi">
+            <img src="/public_html/imagenes/María Genoveva Dariozzi.jpg" alt="Foto de María Genoveva Dariozzi">
             <div class="foto-overlay"></div>
         </div>
     </section>

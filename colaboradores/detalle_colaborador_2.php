@@ -93,7 +93,7 @@
             <p>Ph.D Academic Doctor of Philological Sciences</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/pexels-colaborador-2.jpg" alt="Foto del Colaborador">
+            <img src="/public_html/imagenes/detalle_colaborador_2.jpg" alt="Foto de Maia Gurgenidze">
             <div class="foto-overlay"></div>
         </div>
     </section>

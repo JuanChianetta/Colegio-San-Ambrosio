@@ -81,7 +81,7 @@
             <p>Licenciada en Educación</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/adrine_seghpoian.jpg" alt="Foto de Adrine Seghpoian">
+            <img src="/public_html/imagenes/Adrine Seghpoian.png" alt="Foto de Adrine Seghpoian">
             <div class="foto-overlay"></div>
         </div>
     </section>

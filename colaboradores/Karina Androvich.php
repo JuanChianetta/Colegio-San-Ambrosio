@@ -81,7 +81,7 @@
             <p>Psicóloga Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/karina_androvich.jpg" alt="Foto de Karina Androvich">
+            <img src="/public_html/imagenes/Karina Androvich.jpg" alt="Foto de Karina Androvich">
             <div class="foto-overlay"></div>
         </div>
     </section>

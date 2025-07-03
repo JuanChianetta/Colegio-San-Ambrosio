@@ -81,7 +81,7 @@
             <p>Psicóloga Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/victoria_rizzo.jpg" alt="Foto de Victoria Rizzo">
+            <img src="/public_html/imagenes/Victoria Rizzo.jpg" alt="Foto de Victoria Rizzo">
             <div class="foto-overlay"></div>
         </div>
     </section>

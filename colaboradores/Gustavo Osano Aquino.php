@@ -81,7 +81,7 @@
             <p>Licenciado en Psicopedagogía</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/gustavo_osano.jpg" alt="Foto de Gustavo Osano Aquino">
+            <img src="/public_html/imagenes/Gustavo Osano Aquino.jpg" alt="Foto de Gustavo Osano Aquino">
             <div class="foto-overlay"></div>
         </div>
     </section>

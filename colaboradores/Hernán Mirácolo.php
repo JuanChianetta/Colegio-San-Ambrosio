@@ -81,7 +81,7 @@
             <p>Licenciado en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/hernan_miracolo.jpg" alt="Foto de Hernán Mirácolo">
+            <img src="/public_html/imagenes/Hernán Mirácolo.png" alt="Foto de Hernán Mirácolo">
             <div class="foto-overlay"></div>
         </div>
     </section>

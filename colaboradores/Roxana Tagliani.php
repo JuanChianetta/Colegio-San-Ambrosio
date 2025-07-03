@@ -81,7 +81,7 @@
             <p>Profesora de Expresión y Lenguaje Corporal</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/roxana_tagliani.jpg" alt="Foto de Roxana Tagliani">
+            <img src="/public_html/imagenes/Roxana Tagliani.jpg" alt="Foto de Roxana Tagliani">
             <div class="foto-overlay"></div>
         </div>
     </section>

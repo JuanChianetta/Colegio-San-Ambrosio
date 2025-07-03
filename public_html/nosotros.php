@@ -145,6 +145,20 @@
                 </div>
                 
             </div>
+            <div class="row row-container">
+                <!-- Ejemplo de colaborador -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('../colaboradores/gabriela_romero.php', '_blank')">
+                        <img src="./imagenes/Gabriela_maria_romero.png" class="card-img-top collaborator-image" alt="Gabriela María Romero">
+                        <div class="card-body">
+                            <h5 class="card-title">Gabriela María Romero</h5>
+                            <p class="card-text">Rectora</p>
+                            <a href="../colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega aquí el resto de los colaboradores siguiendo el mismo formato -->
+            </div>
         </div>
     </section>
 

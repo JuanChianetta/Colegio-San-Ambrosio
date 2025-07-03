@@ -81,7 +81,7 @@
             <p>Psicóloga Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/miriam_arias.jpg" alt="Foto de Miriam Arias">
+            <img src="/public_html/imagenes/Miriam Arias.jpg" alt="Foto de Miriam Arias">
             <div class="foto-overlay"></div>
         </div>
     </section>

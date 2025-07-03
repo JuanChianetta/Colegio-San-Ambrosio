@@ -81,7 +81,7 @@
             <p>Magíster en Gestión de Proyectos Educativos</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/maria_sgalia.jpg" alt="Foto de María José Sgalia">
+            <img src="/public_html/imagenes/maria_jose_sgalai.jpg" alt="Foto de María José Sgalia">
             <div class="foto-overlay"></div>
         </div>
     </section>

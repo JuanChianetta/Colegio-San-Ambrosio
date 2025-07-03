@@ -81,7 +81,7 @@
             <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/laura_gonzalez.jpg" alt="Foto de Laura Evangelina González">
+            <img src="/public_html/imagenes/Laura Evangelina González.jpg" alt="Foto de Laura Evangelina González">
             <div class="foto-overlay"></div>
         </div>
     </section>

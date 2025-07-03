@@ -81,7 +81,7 @@
             <p>Licenciada en Ciencias de la Educación</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../public_html/imagenes/viviana_mastandrea.jpg" alt="Foto de Viviana Mastandrea">
+            <img src="/public_html/imagenes/Viviana Mastandrea.jpg" alt="Foto de Viviana Mastandrea">
             <div class="foto-overlay"></div>
         </div>
     </section>
