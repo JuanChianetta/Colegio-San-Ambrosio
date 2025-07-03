@@ -198,7 +198,7 @@
             <div class="row row-container">
                 <!-- Tarjeta 1 -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="abrirDetalle('detalle_colaborador_1.php')">
+                    <div class="card collaborator-card" onclick="abrirDetalle('../colaboradores/gabriela_romero.php')">
                         <img src="./imagenes/Gabriela_maria_romero.png" class="card-img-top collaborator-image" alt="Nombre del Colaborador">
                         <div class="card-body">
                             <h5 class="card-title">Gabriela María Romero</h5>
