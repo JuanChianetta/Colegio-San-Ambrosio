@@ -130,7 +130,7 @@
 </head>
 
 <body>
-    <?php include "nav.php"; ?>
+    <?php include 'nav.php'; ?>
     <!-- Banner -->
     <section class="banner" style="background-image: url('./imagenes/pexels-auditorio.jpg');">
         <div class="banner-overlay">
@@ -150,26 +150,26 @@
         <div class="card-box">
             <h2>Educación Inicial</h2>
             <p>Estudia con nosotros nuevos enfoques sobre la enseñanza de nivel inicial.</p>
-            <button onclick="loadPdf('./pdf/info_inicial_isa.pdf')">Ver Más</button>
+            <button onclick="loadPdf('info_inicial_isa.pdf')">Ver Más</button>
         </div>
 
         <!-- Caja Psicología Social -->
         <div class="card-box">
             <h2>Psicología Social</h2>
             <p>Estudia con nosotros nuevos enfoques sobre la enseñanza de nivel inicial.</p>
-            <button onclick="loadPdf('./pdf/info_psicologia_isa.pdf')">Ver Más</button>
+            <button onclick="loadPdf('info_psicologia_isa.pdf')">Ver Más</button>
         </div>
 
         <!-- Caja Secundario -->
         <div class="card-box">
             <h2>Secundario</h2>
             <p>Estudia con nosotros nuevos enfoques sobre la enseñanza de nivel inicial.</p>
-            <button onclick="loadPdf('./pdf/info_secundaria_isa.pdf')">Ver Más</button>
+            <button onclick="loadPdf('info_secundaria_isa.pdf')">Ver Más</button>
         </div>
     </div>
 
     <!-- Fondo con efecto blur -->
-    <!-- <div id="overlay"></div> -->
+    <div id="overlay"></div>
 
     <!-- Contenedor del visualizador -->
     <div id="pdf-viewer-container">
@@ -178,36 +178,25 @@
         <button class="viewer-button viewer-close" onclick="closePdfViewer()">Cerrar</button>
     </div>
 
-    <!-- Bootstrap JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     <script>
         let currentPdfUrl = '';
 
-        function loadPdf(pdfUrl) {
+        function loadPdf(fileName) {
             const overlay = document.getElementById('overlay');
             const container = document.getElementById('pdf-viewer-container');
             const iframe = document.getElementById('pdf-iframe');
-            const viewerPath = './ViewerJS/#../'; // Ruta a la carpeta ViewerJS
 
-            // Configurar el iframe con el PDF
-            iframe.src = viewerPath + pdfUrl;
-            currentPdfUrl = pdfUrl; // Guardar la URL actual para imprimir
+         iframe.src = './pdf/' + fileName;  // SIN ViewerJS
+           overlay.style.display = 'block';
+         setTimeout(() => overlay.style.backdropFilter = 'blur(5px)', 10);
 
-            // Mostrar el overlay con efecto blur
-            overlay.style.display = 'block';
+          container.style.display = 'block';
             setTimeout(() => {
-                overlay.style.backdropFilter = 'blur(5px)';
-            }, 10);
-
-            // Mostrar y animar el contenedor
-            container.style.display = 'block';
-            setTimeout(() => {
-                container.style.width = '60%';
-                container.style.height = '80%';
-            }, 10);
+          container.style.width = '60%';
+          container.style.height = '80%';
+        }, 10);
+        currentPdfUrl = './pdf/' + fileName;
         }
-
         function closePdfViewer() {
             const overlay = document.getElementById('overlay');
             const container = document.getElementById('pdf-viewer-container');
