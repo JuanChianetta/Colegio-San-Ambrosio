@@ -21,7 +21,7 @@
     </section>
     <section class="welcome-section">
         <div class="container">
-            <h1 class="welcome-title">¡Bienvenidos !</h1>
+            <h1 class="welcome-title">¡Bienvenidos al colegio san ambrosio!</h1>
 
 
             
