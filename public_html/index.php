@@ -31,15 +31,15 @@
 
   <div class="carousel-inner">
     <!-- Imagen 0 -->
-    <div class="carousel-item active" style="background-image: url('./imagenes/edt/UFLO.png');">
+    <div class="carousel-item" style="background-image: url('./imagenes/edt/UFLO.png');">
       <div class="carousel-caption d-none d-md-block">
         <h5>Nueva Alianza Académica</h5>
-        <p>Ahora contamos con convenio con UFLO para Psicología Social.</p>
+        <p>Ahora contamos con convenio con UFLO para la Licenciatura de Psicología.</p>
       </div>
     </div>
 
     <!-- Imagen 1 -->
-    <div class="carousel-item" style="background-image: url('./imagenes/edt/edt_img_deco_2.jpg');">
+    <div class="carousel-item active" style="background-image: url('./imagenes/edt/edt_img_deco_2.jpg');">
       <div class="carousel-caption d-none d-md-block">
         <h5>Educación de Calidad</h5>
         <p>La importancia de aprender enseñando</p>
