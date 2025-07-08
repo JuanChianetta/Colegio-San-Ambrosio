@@ -10,7 +10,7 @@
             <div class="col-md-3">
                 <h5>INSTITUCIONAL</h5>
                 <ul class="list-unstyled">
-                    <li><a href="/public_html/nosotros.php">Nuestros Colaboradores</a></li>
+<!-- <li><a href="/public_html/nosotros.php">Nuestros Colaboradores</a></li>-->
                     <li><a href="/public_html/contacto.php">Contacto</a></li>
                     <li><a href="/public_html/admisiones.php">Admisiones</a></li>
                 </ul>

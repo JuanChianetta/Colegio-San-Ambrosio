@@ -26,23 +26,35 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
+
   <div class="carousel-inner">
-    <!-- Primera Imagen -->
-    <div class="carousel-item active" style="background-image: url('./imagenes/edt/edt_img_deco_2.jpg');">
+    <!-- Imagen 0 -->
+    <div class="carousel-item active" style="background-image: url('./imagenes/edt/UFLO.png');">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Nueva Alianza Académica</h5>
+        <p>Ahora contamos con convenio con UFLO para Psicología Social.</p>
+      </div>
+    </div>
+
+    <!-- Imagen 1 -->
+    <div class="carousel-item" style="background-image: url('./imagenes/edt/edt_img_deco_2.jpg');">
       <div class="carousel-caption d-none d-md-block">
         <h5>Educación de Calidad</h5>
         <p>La importancia de aprender enseñando</p>
       </div>
     </div>
-    <!-- Segunda Imagen -->
+
+    <!-- Imagen 2 -->
     <div class="carousel-item" style="background-image: url('./imagenes/edt/edt_img_docente_2.jpg');">
       <div class="carousel-caption d-none d-md-block">
         <h5>Valores en Acción</h5>
         <p>Fomentamos la empatía, la colaboración y el respeto en todas nuestras actividades.</p>
       </div>
     </div>
-    <!-- Tercera Imagen -->
+
+    <!-- Imagen 3 -->
     <div class="carousel-item" style="background-image: url('./imagenes/edt/img_secundaria_2_edt.JPG');">
       <div class="carousel-caption d-none d-md-block">
         <h5>Aprendizaje Activo</h5>
@@ -50,6 +62,7 @@
       </div>
     </div>
   </div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Anterior</span>
@@ -59,6 +72,7 @@
     <span class="visually-hidden">Siguiente</span>
   </button>
 </div>
+
 
 <div class="container text-center pilares">
     <h2>Nos proponemos lograr la formación integral de niños autónomos, <br>reflexivos y comprometidos con su aprendizaje.</h2>
