@@ -29,9 +29,7 @@
             <!-- Redes Sociales -->
             <div class="row mt-4">
                 <div class="col text-center footer-social-icons">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/insti.sanambrosio/?hl=es"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
     </div>
