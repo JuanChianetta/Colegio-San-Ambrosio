@@ -159,11 +159,17 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
                     A lo largo de la formación, los estudiantes adquieren habilidades para el diagnóstico, la mediación y la intervención en distintos ámbitos, con un fuerte compromiso ético y social. El programa combina el estudio de teorías psicosociales con experiencias prácticas en escenarios reales.
                 </p>
             </div>
-            <div class="download-container">
+
+            <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
                 <a href="Plan_de_Estudios.pdf" download class="download-button">
                     <i class="fas fa-file-download"></i> Descargar Programa
                 </a>
+            
+                <a href="papers.php" class="download-button">
+                    <i class="fas fa-external-link-alt"></i> Papers
+                </a>    
             </div>
+        
         </div>
     </section>
 
