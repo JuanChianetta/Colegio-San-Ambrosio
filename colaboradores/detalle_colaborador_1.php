@@ -4,20 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admiciones</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public_html/styles.css">
-    <link rel="stylesheet" href="/public_html/colaborador.css">
-    <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/colaborador.css">
+    <link rel="icon" type="image/png" href="/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Reutilizar el encabezado -->
-    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
+    <?php include './public_html/nav.php'; ?>
 
     <div style="height: 150px"></div>
     <div class="contenedor-detalle">
         <div class="imagen-colaborador">
-            <img src="/public_html/imagenes/pexels-colaborador-1.jpg" alt="Colaborador">
+            <img src="/imagenes/pexels-colaborador-1.jpg" alt="Colaborador">
         </div>
         <div class="contenido-colaborador">
             <h2>Creative Approach</h2>
@@ -65,6 +65,6 @@
 
     </script>
     <!-- Reutilizar el pie de página -->
-    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
+    <?php include './public_html/footer.php'; ?>
 </body>
 </html>

@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Docente</h1>
-            <h2>Matías Napoli</h2>
-            <p>Profesor de Historia y Licenciado en Ciencias de la Comunicación</p>
+            <h1>Coordinador de carrera</h1>
+            <h2>Diego Joel Rodriguez</h2>
+            <p>Operador en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Matías Napoli.png" alt="Foto de Matías Napoli">
+            <img src="/public_html/imagenes/Diego Joel Rodriguez.png" alt="Foto de Diego Joel Rodriguez">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -91,7 +91,27 @@
     <section class="trayectoria-section">
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
-            <!-- Additional list items can be added here -->
+            <li>
+                <strong>Técnico en Comunicación Social</strong>
+            </li>
+            <li>
+                <strong>Diplomatura en Educación Sexual Integral</strong>
+            </li>
+            <li>
+                <strong>Programador Neurolingüístico</strong>
+            </li>
+            <li>
+                <strong>Coach Ontológico</strong>
+            </li>
+            <li>
+                <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
+            </li>
+            <li>
+                <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
+            </li>
+            <li>
+                <strong>Mindfulness Master</strong>
+            </li>
         </ul>
     </section>
     <style>
@@ -127,13 +147,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;
@@ -176,7 +189,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

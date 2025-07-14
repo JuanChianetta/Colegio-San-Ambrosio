@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Karina Androvich</h2>
-            <p>Psicóloga Social</p>
+            <h2>Sheila Gómez Kairuz</h2>
+            <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Karina Androvich.jpg" alt="Foto de Karina Androvich">
+            <img src="/public_html/imagenes/Sheila Gómez Kairuz.png" alt="Foto de Sheila Gómez Kairuz">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,10 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Actriz</strong>
+                <strong>Licenciada en Psicología</strong>
             </li>
             <li>
-                <strong>Psicodramatista</strong>
+                <strong>Especialización en Psicología Clínica</strong>
+            </li>
+            <li>
+                <strong>Docente en Universidad de Buenos Aires</strong>
+            </li>
+            <li>
+                <strong>Coordinadora de Prácticas Profesionales</strong>
             </li>
         </ul>
     </section>
@@ -181,7 +187,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

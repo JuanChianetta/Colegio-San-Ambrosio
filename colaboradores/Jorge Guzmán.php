@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Coordinadora de carrera</h1>
-            <h2>María José Sgalia</h2>
-            <p>Magíster en Gestión de Proyectos Educativos</p>
+            <h1>Docente</h1>
+            <h2>Jorge Guzmán</h2>
+            <p>Abogado</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/María José Sgalia.png" alt="Foto de María José Sgalia">
+            <img src="/public_html/imagenes/Jorge Guzman.jpg" alt="Foto de Jorge Guzmán">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,22 +92,46 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Especialista Docente de Nivel Superior en Educación Maternal</strong>
+                <strong>Licenciado en Seguridad Ciudadana</strong>
             </li>
             <li>
-                <strong>Nuestra Escuela. Ministerio de Educación</strong>
+                <strong>Psicólogo Social</strong>
             </li>
             <li>
-                <strong>Licenciada en Ciencias de la Educación con especialización en nivel Medio y Superior</strong>
+                <strong>Master Internacional en Psicología Social y Coordinación Grupal de la Universidad Popular Argentina, avalado por el Centro UNESCO de Madrid</strong>
             </li>
             <li>
-                <strong>Tutora para Educación a Distancia</strong>
+                <strong>Curso de Primeros Auxilios Psicológicos</strong>
             </li>
             <li>
-                <strong>Técnica en Conducción Educativa</strong>
+                <strong>Curso de Primeros Auxilios y RCP</strong>
             </li>
             <li>
-                <strong>Profesora de Educación Inicial</strong>
+                <strong>Curso de Investigación de la Escena del Crimen</strong>
+            </li>
+            <li>
+                <strong>Curso de Homicidios</strong>
+            </li>
+            <li>
+                <strong>Curso de Instructor de Fuerzas Policiales</strong>
+            </li>
+            <li>
+                <strong>Curso de Drogas Peligrosas</strong>
+            </li>
+            <li>
+                <strong>Diplomatura en Derecho Laboral</strong>
+            </li>
+            <li>
+                <strong>Diplomatura en Derecho Penal</strong>
+            </li>
+            <li>
+                <strong>Curso de Psicoanálisis</strong>
+            </li>
+            <li>
+                <strong>Curso para Ascensos de la Policía de la Ciudad en el ISSP</strong>
+            </li>
+            <li>
+                <strong>Curso a los Cadetes de la Policía de la Ciudad</strong>
             </li>
         </ul>
     </section>
@@ -144,13 +168,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;
@@ -193,7 +210,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

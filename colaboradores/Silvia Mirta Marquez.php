@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,35 +72,21 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Secretaria Nivel Superior</h1>
-            <h2>María Victoria Zupan</h2>
-            <p>Licenciada en Educación Inicial</p>
+            <h1>Docente</h1>
+            <h2>Silvia Mirta Marquez</h2>
+            <p>Licenciada en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/María Victoria Zupan.jpg" alt="Foto de María Victoria Zupan">
+            <img src="/public_html/imagenes/Silvia Mirta Marquez.jpg" alt="Foto de Silvia Mirta Marquez">
             <div class="foto-overlay"></div>
         </div>
     </section>
     <section class="quote-banner">
         <p>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."</p>
-    </section>
-    <section class="trayectoria-section">
-        <h2 class="trayectoria-title">Trayectoria</h2>
-        <ul class="trayectoria-list">
-            <li>
-                <strong>Diplomada Superior en Gestión de Instituciones Educativas</strong>
-            </li>
-            <li>
-                <strong>Técnica Superior en Relaciones Públicas, Ceremonial y Protocolo</strong>
-            </li>
-            <li>
-                <strong>Profesora de Educación Inicial</strong>
-            </li>
-        </ul>
     </section>
     <style>
         .trayectoria-section {
@@ -135,13 +121,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;
@@ -184,7 +163,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

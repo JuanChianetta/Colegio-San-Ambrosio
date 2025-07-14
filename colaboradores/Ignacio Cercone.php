@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Hernán Mirácolo</h2>
+            <h2>Ignacio Cercone</h2>
             <p>Licenciado en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Hernán Mirácolo.png" alt="Foto de Hernán Mirácolo">
+            <img src="/public_html/imagenes/Ignacio Cercone.jpg" alt="Foto de Ignacio Cercone">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,25 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Especialización en Terapia Gestáltica (AGBA)</strong>
+                <strong>Postgrado en Psicoanálisis</strong>
             </li>
             <li>
-                <strong>Postgrado en Consumos Problemáticos - Del Fenómeno Social a la Operación Singular (Hospital Ramos Mejía)</strong>
+                <strong>Centro de Salud Mental N° 3</strong>
             </li>
             <li>
-                <strong>Postgrado en Identidad y Género (Hospital Tobar García)</strong>
+                <strong>Actor Nacional - Egresado de la UNA</strong>
             </li>
             <li>
-                <strong>Docente en Universidad J. F. Kennedy - Universidad Maimónides</strong>
+                <strong>Conservatorio Nacional de Arte Dramático</strong>
+            </li>
+            <li>
+                <strong>Curso de Teatro Pompeyo Audert</strong>
+            </li>
+            <li>
+                <strong>Curso de Teatro Escuela La Odisea</strong>
+            </li>
+            <li>
+                <strong>Taller: Gimnasio de Improvisación en Camarín de las Musas</strong>
             </li>
         </ul>
     </section>
@@ -138,13 +147,6 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
-        }
-        .trayectoria-list em {
-            font-style: italic;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 5px;
-            display: block;
         }
         .in-view {
             visibility: visible;
@@ -187,7 +189,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

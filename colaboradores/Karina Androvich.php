@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Gisela Bearzi</h2>
-            <p>Profesora para la Enseñanza Primaria</p>
+            <h2>Karina Androvich</h2>
+            <p>Psicóloga Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/edt/gisela_bearzi.jpg" alt="Foto de Gisela Bearzi">
+            <img src="/public_html/imagenes/Karina Androvich.jpg" alt="Foto de Karina Androvich">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Actriz</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
-            </li>
-            <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
-            </li>
-            <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Psicodramatista</strong>
             </li>
         </ul>
     </section>
@@ -187,7 +181,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Roxana Tagliani</h2>
-            <p>Profesora de Expresión y Lenguaje Corporal</p>
+            <h2>Hernán Mirácolo</h2>
+            <p>Licenciado en Psicología</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Roxana Tagliani.jpg" alt="Foto de Roxana Tagliani">
+            <img src="/public_html/imagenes/Hernán Mirácolo.png" alt="Foto de Hernán Mirácolo">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora de Juegos Teatrales</strong>
+                <strong>Especialización en Terapia Gestáltica (AGBA)</strong>
             </li>
             <li>
-                <strong>Instructora de Gimnasia para el Desarrollo de la Salud</strong>
+                <strong>Postgrado en Consumos Problemáticos - Del Fenómeno Social a la Operación Singular (Hospital Ramos Mejía)</strong>
             </li>
             <li>
-                <strong>Actriz</strong>
+                <strong>Postgrado en Identidad y Género (Hospital Tobar García)</strong>
             </li>
             <li>
-                <strong>Bailarina</strong>
+                <strong>Docente en Universidad J. F. Kennedy - Universidad Maimónides</strong>
             </li>
         </ul>
     </section>
@@ -187,7 +187,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Docente</h1>
-            <h2>Sheila Gómez Kairuz</h2>
-            <p>Licenciada en Psicología</p>
+            <h1>Coordinadora de carrera</h1>
+            <h2>María José Sgalia</h2>
+            <p>Magíster en Gestión de Proyectos Educativos</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Sheila Gómez Kairuz.png" alt="Foto de Sheila Gómez Kairuz">
+            <img src="/public_html/imagenes/María José Sgalia.png" alt="Foto de María José Sgalia">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,16 +92,22 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Licenciada en Psicología</strong>
+                <strong>Especialista Docente de Nivel Superior en Educación Maternal</strong>
             </li>
             <li>
-                <strong>Especialización en Psicología Clínica</strong>
+                <strong>Nuestra Escuela. Ministerio de Educación</strong>
             </li>
             <li>
-                <strong>Docente en Universidad de Buenos Aires</strong>
+                <strong>Licenciada en Ciencias de la Educación con especialización en nivel Medio y Superior</strong>
             </li>
             <li>
-                <strong>Coordinadora de Prácticas Profesionales</strong>
+                <strong>Tutora para Educación a Distancia</strong>
+            </li>
+            <li>
+                <strong>Técnica en Conducción Educativa</strong>
+            </li>
+            <li>
+                <strong>Profesora de Educación Inicial</strong>
             </li>
         </ul>
     </section>
@@ -187,7 +193,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

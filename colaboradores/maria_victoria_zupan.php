@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Colaborador</title>
-    <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
+    <link rel="icon" type="image/png" href="../public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../public_html/styles.css">
     <style>
@@ -76,12 +76,12 @@
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
-            <h1>Coordinador de carrera</h1>
-            <h2>Diego Joel Rodriguez</h2>
-            <p>Operador en Psicología Social</p>
+            <h1>Secretaria Nivel Superior</h1>
+            <h2>María Victoria Zupan</h2>
+            <p>Licenciada en Educación Inicial</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Diego Joel Rodriguez.png" alt="Foto de Diego Joel Rodriguez">
+            <img src="../public_html/imagenes/María Victoria Zupan.png" alt="María Victoria Zupan">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,25 +92,13 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Técnico en Comunicación Social</strong>
+                <strong>Diplomada Superior en Gestión de Instituciones Educativas</strong>
             </li>
             <li>
-                <strong>Diplomatura en Educación Sexual Integral</strong>
+                <strong>Técnica Superior en Relaciones Públicas, Ceremonial y Protocolo</strong>
             </li>
             <li>
-                <strong>Programador Neurolingüístico</strong>
-            </li>
-            <li>
-                <strong>Coach Ontológico</strong>
-            </li>
-            <li>
-                <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
-            </li>
-            <li>
-                <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
-            </li>
-            <li>
-                <strong>Mindfulness Master</strong>
+                <strong>Profesora de Educación Inicial</strong>
             </li>
         </ul>
     </section>
@@ -147,6 +135,13 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
+        }
+        .trayectoria-list em {
+            font-style: italic;
+            font-size: 1rem;
+            color: #555;
+            margin-top: 5px;
+            display: block;
         }
         .in-view {
             visibility: visible;

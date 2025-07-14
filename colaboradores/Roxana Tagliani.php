@@ -6,7 +6,7 @@
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public_html/styles.css">
+    <link rel="stylesheet" href="./public_html/styles.css">
     <style>
         .colaborador-detalle {
             display: flex;
@@ -72,16 +72,16 @@
     </style>
 </head>
 <body>
-    <?php include '../public_html/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/nav.php'; ?>
     <div style="height: 20px;"></div>
     <section class="colaborador-detalle">
         <div class="colaborador-info">
             <h1>Docente</h1>
-            <h2>Lorena Michelle Figueredo Sánchez</h2>
-            <p>Técnica Superior en Psicología Social</p>
+            <h2>Roxana Tagliani</h2>
+            <p>Profesora de Expresión y Lenguaje Corporal</p>
         </div>
         <div class="colaborador-foto">
-            <img src="/public_html/imagenes/Lorena Michelle Figueredo Sánchez.jpg" alt="Foto de Lorena Michelle Figueredo Sánchez">
+            <img src="/public_html/imagenes/Roxana Tagliani.jpg" alt="Foto de Roxana Tagliani">
             <div class="foto-overlay"></div>
         </div>
     </section>
@@ -92,10 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Especialista en Educación Sexual Integral</strong>
+                <strong>Profesora de Juegos Teatrales</strong>
             </li>
             <li>
-                <strong>Acompañante Terapéutico</strong>
+                <strong>Instructora de Gimnasia para el Desarrollo de la Salud</strong>
+            </li>
+            <li>
+                <strong>Actriz</strong>
+            </li>
+            <li>
+                <strong>Bailarina</strong>
             </li>
         </ul>
     </section>
@@ -132,6 +138,13 @@
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
+        }
+        .trayectoria-list em {
+            font-style: italic;
+            font-size: 1rem;
+            color: #555;
+            margin-top: 5px;
+            display: block;
         }
         .in-view {
             visibility: visible;
@@ -174,7 +187,7 @@
             });
         });
     </script>
-    <?php include '../public_html/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/public_html/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
