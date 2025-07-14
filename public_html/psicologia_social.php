@@ -122,6 +122,7 @@
 <body>
    
     <?php include "nav.php"; ?>
+    <div style="height: 90px;"></div>
 
     <!-- Banner de Admisiones -->
     <section class="banner" style="background-image: url('./imagenes/colacion_psicologia_social.jpeg');">
