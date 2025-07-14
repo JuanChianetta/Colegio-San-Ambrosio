@@ -187,34 +187,34 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
             <div class="row row-container">
                 <!-- Gabriela María Romero -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/gabriela_romero.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/gabriela_romero.php', '_blank')">
                         <img src="./imagenes/Gabriela_maria_romero.png" class="card-img-top collaborator-image" alt="Gabriela María Romero">
                         <div class="card-body">
                             <h5 class="card-title">Gabriela María Romero</h5>
                             <p class="card-text">Rectora</p>
-                            <a href="../colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- María Victoria Zupan -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/maria_victoria_zupan.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/maria_victoria_zupan.php', '_blank')">
                         <img src="./imagenes/María Victoria Zupan.png" class="card-img-top collaborator-image" alt="María Victoria Zupan">
                         <div class="card-body">
                             <h5 class="card-title">María Victoria Zupan</h5>
                             <p class="card-text">Secretaria</p>
-                            <a href="../colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Diego Joel Rodriguez -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Diego Joel Rodriguez.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Diego Joel Rodriguez.php', '_blank')">
                         <img src="./imagenes/Diego Joel Rodriguez.png" class="card-img-top collaborator-image" alt="Diego Joel Rodriguez">
                         <div class="card-body">
                             <h5 class="card-title">Diego Joel Rodriguez</h5>
                             <p class="card-text">Coordinador de carrera</p>
-                            <a href="../colaboradores/Diego Joel Rodriguez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Diego Joel Rodriguez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
