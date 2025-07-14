@@ -82,7 +82,7 @@
         <!-- Pilar 1 -->
         <div class="col-md-4">
             <div class="icono-circulo">
-                <img src="icono-pensamiento.png" alt="Pensamiento Efectivo">
+                <img src="imagenes/pensamiento_efectivo.png" alt="Pensamiento Efectivo">
             </div>
             <h5>Pensamiento Efectivo</h5>
         </div>
@@ -90,7 +90,7 @@
         <!-- Pilar 2 -->
         <div class="col-md-4">
             <div class="icono-circulo">
-                <img src="icono-inteligencias.png" alt="Inteligencias Múltiples">
+                <img src="imagenes/inteligencias_multiples.png" alt="Inteligencias Múltiples">
             </div>
             <h5>Inteligencias Múltiples</h5>
         </div>
@@ -98,7 +98,7 @@
         <!-- Pilar 3 -->
         <div class="col-md-4">
             <div class="icono-circulo">
-                <img src="icono-comprension.png" alt="Enseñanza para la Comprensión">
+                <img src="imagenes/Enseñanza_para_la_Comprensión.png" alt="Enseñanza para la Comprensión">
             </div>
             <h5>Enseñanza para la Comprensión</h5>
         </div>

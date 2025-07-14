@@ -188,144 +188,144 @@ Prepárate para un camino de autoconocimiento, impacto social y crecimiento prof
             <div class="row row-container">
                 <!-- Gabriela María Romero -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/gabriela_romero.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/gabriela_romero.php', '_blank')">
                         <img src="./imagenes/Gabriela_maria_romero.png" class="card-img-top collaborator-image" alt="Gabriela María Romero">
                         <div class="card-body">
                             <h5 class="card-title">Gabriela María Romero</h5>
                             <p class="card-text">Rectora</p>
-                            <a href="../colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- María Victoria Zupan -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/maria_victoria_zupan.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/maria_victoria_zupan.php', '_blank')">
                         <img src="./imagenes/María Victoria Zupan.png" class="card-img-top collaborator-image" alt="María Victoria Zupan">
                         <div class="card-body">
                             <h5 class="card-title">María Victoria Zupan</h5>
                             <p class="card-text">Secretaria</p>
-                            <a href="../colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Diego Joel Rodriguez -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Diego Joel Rodriguez.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Diego Joel Rodriguez.php', '_blank')">
                         <img src="./imagenes/Diego Joel Rodriguez.png" class="card-img-top collaborator-image" alt="Diego Joel Rodriguez">
                         <div class="card-body">
                             <h5 class="card-title">Diego Joel Rodriguez</h5>
                             <p class="card-text">Coordinador de carrera</p>
-                            <a href="../colaboradores/Diego Joel Rodriguez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Diego Joel Rodriguez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Andrea Faseli -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Andrea Faseli.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Andrea Faseli.php', '_blank')">
                         <img src="./imagenes/Andrea Faseli.jpg" class="card-img-top collaborator-image" alt="Andrea Faseli">
                         <div class="card-body">
                             <h5 class="card-title">Andrea Faseli</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Andrea Faseli.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Andrea Faseli.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Gustavo Osano Aquino -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Gustavo Osano Aquino.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Gustavo Osano Aquino.php', '_blank')">
                         <img src="./imagenes/Gustavo Osano Aquino.jpg" class="card-img-top collaborator-image" alt="Gustavo Osano Aquino">
                         <div class="card-body">
                             <h5 class="card-title">Gustavo Osano Aquino</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Gustavo Osano Aquino.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Gustavo Osano Aquino.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Christian Ezequiel Vodopivec -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Christian Ezequiel Vodopivec.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Christian Ezequiel Vodopivec.php', '_blank')">
                         <img src="./imagenes/Christian Ezequiel Vodopivec.jpg" class="card-img-top collaborator-image" alt="Christian Ezequiel Vodopivec">
                         <div class="card-body">
                             <h5 class="card-title">Christian Ezequiel Vodopivec</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Christian Ezequiel Vodopivec.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Christian Ezequiel Vodopivec.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Silvia Mirta Marquez -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Silvia Mirta Marquez.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Silvia Mirta Marquez.php', '_blank')">
                         <img src="./imagenes/Silvia Mirta Marquez.jpg" class="card-img-top collaborator-image" alt="Silvia Mirta Marquez">
                         <div class="card-body">
                             <h5 class="card-title">Silvia Mirta Marquez</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Silvia Mirta Marquez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Silvia Mirta Marquez.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Laura Evangelina González -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Laura Evangelina González.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Laura Evangelina González.php', '_blank')">
                         <img src="./imagenes/Laura Evangelina González.jpg" class="card-img-top collaborator-image" alt="Laura Evangelina González">
                         <div class="card-body">
                             <h5 class="card-title">Laura Evangelina González</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Laura Evangelina González.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Laura Evangelina González.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Hernan Miracolo -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Hernán Mirácolo.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Hernán Mirácolo.php', '_blank')">
                         <img src="./imagenes/Hernan Miracolo.jpg" class="card-img-top collaborator-image" alt="Hernan Miracolo">
                         <div class="card-body">
                             <h5 class="card-title">Hernán Mirácolo</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Hernán Mirácolo.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Hernán Mirácolo.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Miriam Arias -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Miriam Arias.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Miriam Arias.php', '_blank')">
                         <img src="./imagenes/Miriam Arias.jpg" class="card-img-top collaborator-image" alt="Miriam Arias">
                         <div class="card-body">
                             <h5 class="card-title">Miriam Arias</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Miriam Arias.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Miriam Arias.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Karina Androvich -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Karina Androvich.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Karina Androvich.php', '_blank')">
                         <img src="./imagenes/Karina Androvich.jpg" class="card-img-top collaborator-image" alt="Karina Androvich">
                         <div class="card-body">
                             <h5 class="card-title">Karina Androvich</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Karina Androvich.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Karina Androvich.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Jorge Guzman -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Jorge Guzmán.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Jorge Guzmán.php', '_blank')">
                         <img src="./imagenes/Jorge Guzman.jpg" class="card-img-top collaborator-image" alt="Jorge Guzman">
                         <div class="card-body">
                             <h5 class="card-title">Jorge Guzman</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Jorge Guzmán.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Jorge Guzmán.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Ignacio Cercone -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('../colaboradores/Ignacio Cercone.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Ignacio Cercone.php', '_blank')">
                         <img src="./imagenes/Ignacio Cercone.jpg" class="card-img-top collaborator-image" alt="Ignacio Cercone">
                         <div class="card-body">
                             <h5 class="card-title">Ignacio Cercone</h5>
                             <p class="card-text">Docente</p>
-                            <a href="../colaboradores/Ignacio Cercone.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/Ignacio Cercone.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
