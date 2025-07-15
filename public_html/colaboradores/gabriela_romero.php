@@ -92,6 +92,9 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Doctora en Psicología Social (U.K)</strong>
+            </li>
+            <li>
                 <strong>Investigación de campo en el Hospital Alejandro Posadas</strong>
             </li>
             <li>

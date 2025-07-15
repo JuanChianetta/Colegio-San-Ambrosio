@@ -92,6 +92,9 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Técnico Superior en Psicología Social</strong>
+            </li>
+            <li>
                 <strong>Técnico en Comunicación Social</strong>
             </li>
             <li>
