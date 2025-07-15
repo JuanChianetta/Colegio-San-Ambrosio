@@ -20,7 +20,7 @@
 <!-- Navbar principal -->
 <nav class="navbar navbar-expand-lg navbar-light bg-red">
   <div class="container">
-    <a class="navbar-brand" href="/public_html/index.php">
+    <a class="navbar-brand" href="/index.php">
       <img class="logo" src="/public_html/imagenes/SAN_AMBROSIO_NOMBRE_BLANCO.png" alt="Colegio San Ambrosio" height="70">
       <!-- <span class="text-white">Colegio San Ambrosio</span> -->
     </a>
