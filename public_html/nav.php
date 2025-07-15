@@ -21,7 +21,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-red">
   <div class="container">
     <a class="navbar-brand" href="/index.php">
-      <img class="logo" src="/public_html/imagenes/SAN_AMBROSIO_NOMBRE_BLANCO.png" alt="Colegio San Ambrosio" height="70">
+      <img class="logo" src="/imagenes/SAN_AMBROSIO_NOMBRE_BLANCO.png" alt="Colegio San Ambrosio" height="70">
       <!-- <span class="text-white">Colegio San Ambrosio</span> -->
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
