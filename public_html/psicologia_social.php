@@ -116,6 +116,98 @@
         }
     }
 
+/*CELU*/
+@media (max-width: 576px) {
+    .titulo1,
+    .custom-content h3,
+    .study-plan-title {
+        font-size: 30px;
+    }
+    .custom-banner-section {
+        height: 600px;
+    }
+    .custom-content {
+        padding: 20px;
+        max-width: 90%;
+    }
+    .custom-content p {
+        font-size: 15px;
+    }
+    .study-plan-box {
+        padding: 20px;
+        max-width: 95%;
+    }
+    .study-plan-box p {
+        font-size: 15px;
+    }
+    .download-button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .collaborator-card {
+        margin-bottom: 30px;
+    }
+    .col-md-4 {
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* TABLET */
+@media (min-width: 576px) and (max-width: 768px) {
+    .titulo1 {
+    font-size: 35px;
+    }
+
+    .custom-content h3 {
+    font-size: 35px;
+    }
+
+    .study-plan-title {
+    font-size: 35px;
+    }
+
+    .custom-banner-section {
+        height: 350px;
+    }
+    .custom-content {
+        padding: 30px;
+        max-width: 80%;
+    }
+    .custom-content p {
+        font-size: 15px;
+    }
+    .study-plan-box {
+        max-width: 90%;
+        padding: 25px;
+    }
+    .study-plan-box p {
+        font-size: 15px;
+    }
+    .download-button {
+        font-size: 15px;
+        padding: 10px 22px;
+    }
+}
+
+/*PC/NOTEBOOKS*/ 
+@media (min-width: 768px) and (max-width: 992px) {
+    .titulo1,
+    .custom-content h3,
+    .study-plan-title {
+        font-size: 40px;
+    }
+    .custom-banner-section {
+        height: 400px;
+    }
+    .custom-content {
+        max-width: 75%;
+    }
+    .study-plan-box {
+        max-width: 80%;
+    }
+}
 
     </style>
 </head>
@@ -142,9 +234,7 @@
         <div class="custom-overlay">
             <div class="custom-content">
             <h3>Los alumnos como protagonistas de su propio proceso</h1>
-            <p> En nuestra institución, la formación no se basa solo en la teoría, sino en la vivencia real de la dinámica grupal, donde el aprendizaje se convierte en un proceso de cambio personal y profesional. Desde el primer día, desarrollarás habilidades para la intervención psicosocial en diversos ámbitos: salud, educación, comunidad, empresas y más.
-
-Prepárate para un camino de autoconocimiento, impacto social y crecimiento profesional. Vive la experiencia, transforma tu futuro..</p>
+            <p> En nuestra institución, la formación no se basa solo en la teoría, sino en la vivencia real de la dinámica grupal, donde el aprendizaje se convierte en un proceso de cambio personal y profesional. Desde el primer día, desarrollarás habilidades para la intervención psicosocial en diversos ámbitos: salud, educación, comunidad, empresas y más. Prepárate para un camino de autoconocimiento, impacto social y crecimiento profesional. Vive la experiencia, transforma tu futuro..</p>
             </div>
         </div>
     </section>
