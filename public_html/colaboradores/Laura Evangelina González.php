@@ -92,19 +92,22 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Licenciada en Gestión de Instituciones Educativas</strong>
+                <strong>Lic. en Psicología</strong>
             </li>
             <li>
-                <strong>Técnica Superior en Psicología Social</strong>
+                <strong>Lic. en Gestión de Instituciones Educativas</strong>
+            </li>
+            <li>
+                <strong>Técnica superior en psicología social</strong>
             </li>
             <li>
                 <strong>Profesora de Psicología Social</strong>
             </li>
             <li>
-                <strong>Formación Pedagógica para Profesionales</strong>
+                <strong>Formación pedagógica para profesionales</strong>
             </li>
             <li>
-                <strong>Counselor – Consultora Psicológica</strong>
+                <strong>Counselor – Consultora psicologíca</strong>
             </li>
         </ul>
     </section>

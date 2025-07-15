@@ -91,7 +91,12 @@
     <section class="trayectoria-section">
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
-            <!-- Additional list items can be added here -->
+            <li>
+                <strong>Profesor de Historia</strong>
+            </li>
+            <li>
+                <strong>Licenciado en Ciencias de la Comunicación</strong>
+            </li>
         </ul>
     </section>
     <style>

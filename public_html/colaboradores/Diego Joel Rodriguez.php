@@ -78,7 +78,7 @@
         <div class="colaborador-info">
             <h1>Coordinador de carrera</h1>
             <h2>Diego Joel Rodriguez</h2>
-            <p>Operador en Psicología Social</p>
+            <p>Técnico Superior en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
             <img src="../imagenes/Diego Joel Rodriguez.png" alt="Foto de Diego Joel Rodriguez">

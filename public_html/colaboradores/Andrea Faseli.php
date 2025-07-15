@@ -92,7 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora de Psicología Social</strong>
+                <strong>Lic. en Psicología</strong>
+            </li>
+            <li>
+                <strong>Prof. de Psicología Social</strong>
             </li>
             <li>
                 <strong>Psicóloga Social</strong>

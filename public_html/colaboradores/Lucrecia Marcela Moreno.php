@@ -92,10 +92,13 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Licenciada en Ciencias de la Educación</strong>
+                <strong>Profesora Especializada en Educación Inicial. USAL.</strong>
             </li>
             <li>
-                <strong>Postgrado. Especialista en Educación Infantil</strong>
+                <strong>Lic. Ciencias de la Educación. U.B.A.</strong>
+            </li>
+            <li>
+                <strong>Post grado. Especialista en Educación Infantil. U.B.A</strong>
             </li>
         </ul>
     </section>

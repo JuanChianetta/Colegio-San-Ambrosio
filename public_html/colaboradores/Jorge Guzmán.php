@@ -98,40 +98,37 @@
                 <strong>Psicólogo Social</strong>
             </li>
             <li>
-                <strong>Master Internacional en Psicología Social y Coordinación Grupal de la Universidad Popular Argentina, avalado por el Centro UNESCO de Madrid</strong>
+                <strong>Master Internacional en psicología Social y Coordinación Grupal de la Universidad Popular Argentina, avalado por el Centro Unesco de Madrid</strong>
             </li>
             <li>
-                <strong>Curso de Primeros Auxilios Psicológicos</strong>
+                <strong>Curso de Primeros auxilios psicológicos</strong>
             </li>
             <li>
-                <strong>Curso de Primeros Auxilios y RCP</strong>
+                <strong>Curso de primeros auxilios y RCP</strong>
             </li>
             <li>
-                <strong>Curso de Investigación de la Escena del Crimen</strong>
+                <strong>Curso de Investigación de la escena del crimen</strong>
             </li>
             <li>
-                <strong>Curso de Homicidios</strong>
+                <strong>Curso de homicidios</strong>
             </li>
             <li>
-                <strong>Curso de Instructor de Fuerzas Policiales</strong>
+                <strong>Curso de Instructor de fuerzas Policiales</strong>
             </li>
             <li>
                 <strong>Curso de Drogas Peligrosas</strong>
             </li>
             <li>
-                <strong>Diplomatura en Derecho Laboral</strong>
+                <strong>Diplomatura en derecho Laboral</strong>
             </li>
             <li>
                 <strong>Diplomatura en Derecho Penal</strong>
             </li>
             <li>
-                <strong>Curso de Psicoanálisis</strong>
+                <strong>Curso psicoanálisis</strong>
             </li>
             <li>
-                <strong>Curso para Ascensos de la Policía de la Ciudad en el ISSP</strong>
-            </li>
-            <li>
-                <strong>Curso a los Cadetes de la Policía de la Ciudad</strong>
+                <strong>Actualmente da el curso para Ascensos de la Policía de la Ciudad en el I.S.S.P. y a los Cadetes de la Policía de la Ciudad</strong>
             </li>
         </ul>
     </section>
@@ -211,6 +208,9 @@
         });
     </script>
     <?php include '../footer.php'; ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

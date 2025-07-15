@@ -92,13 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Licenciada en Ciencias de la Educación</strong>
+                <strong>Profesora Nivel Inicial</strong>
+            </li>
+            <li>
+                <strong>Lic en Cs. de la Educación</strong>
             </li>
             <li>
                 <strong>Diplomatura en Jardín Maternal</strong>
             </li>
             <li>
-                <strong>Diplomatura en Competencias Tecnopedagógicas</strong>
+                <strong>Diplomatura en Competencias Tecnopedagogicas</strong>
             </li>
         </ul>
     </section>

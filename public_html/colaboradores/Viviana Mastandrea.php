@@ -92,10 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Universidad de Morón</strong>
+                <strong>Lic. en Ciencias de la Educación. Universidad de Morón</strong>
             </li>
             <li>
-                <strong>Profesora de Nivel Inicial</strong>
+                <strong>Profesora de Nivel inicial. Normal Nro. 6</strong>
             </li>
         </ul>
     </section>

@@ -92,7 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora de Educación Inicial con orientación en integración, inclusión y diversidad</strong>
+                <strong>Lic. En Educación</strong>
+            </li>
+            <li>
+                <strong>Prof. de Educación Inicial con orientación en integración, inclusión y diversidad</strong>
             </li>
             <li>
                 <strong>Especialista en Educación Maternal</strong>

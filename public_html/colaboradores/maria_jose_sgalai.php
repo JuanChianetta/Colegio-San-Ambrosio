@@ -92,6 +92,9 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Magister en Gestión de Proyectos Educativos</strong>
+            </li>
+            <li>
                 <strong>Especialista Docente de Nivel Superior en Educación Maternal</strong>
             </li>
             <li>

@@ -92,7 +92,7 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Especialización en ESI</strong>
+                <strong>Psicóloga social – especialización E.S.I.</strong>
             </li>
         </ul>
     </section>

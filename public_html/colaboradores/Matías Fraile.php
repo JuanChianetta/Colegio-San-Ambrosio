@@ -92,22 +92,22 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Técnico en Comunicación y Psicología Social</strong>
+                <strong>Licenciado en Psicología Social - C.A.E.C.E.</strong>
             </li>
             <li>
-                <strong>Operador en Psicología Social</strong>
+                <strong>Técnico en Comunicación y Psicología Social - Escuela de Psicología Social del Sur</strong>
             </li>
             <li>
-                <strong>Coaching y PNL</strong>
+                <strong>Operador en Psicología Social - Escuela Psicología Social del Sur</strong>
             </li>
             <li>
-                <strong>Master en Dirección de Recursos Humanos</strong>
+                <strong>Coaching y PNL - Escuela de negocios europea de Barcelona (ENEB)</strong>
             </li>
             <li>
-                <strong>Master en Gestión y Dirección de Equipos</strong>
+                <strong>Master en Dirección de Recursos Humanos y Master en Gestión y Dirección de Equipos - Escuela de negocios europea de Barcelona (ENEB)</strong>
             </li>
             <li>
-                <strong>Master en Dirección Estratégica en Organizaciones de Salud</strong>
+                <strong>Master en Dirección Estratégica en Organizaciones de Salud - Universidad Europea Miguel Cervantes</strong>
             </li>
         </ul>
     </section>

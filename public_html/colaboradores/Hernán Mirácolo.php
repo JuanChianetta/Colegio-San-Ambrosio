@@ -92,16 +92,19 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Especialización en Terapia Gestáltica (AGBA)</strong>
+                <strong>Lic. en Psicología (UK)</strong>
+            </li>
+            <li>
+                <strong>Especialización en Terapia gestáltica (AGBA)</strong>
             </li>
             <li>
                 <strong>Postgrado en Consumos Problemáticos - Del Fenómeno Social a la Operación Singular (Hospital Ramos Mejía)</strong>
             </li>
             <li>
-                <strong>Postgrado en Identidad y Género (Hospital Tobar García)</strong>
+                <strong>Postgrado en Identidad y Genero (Hospital Tobar García)</strong>
             </li>
             <li>
-                <strong>Docente en Universidad J. F. Kennedy - Universidad Maimónides</strong>
+                <strong>Docente en Universidad J. F. Kennedy -  Universidad Maimónides</strong>
             </li>
         </ul>
     </section>

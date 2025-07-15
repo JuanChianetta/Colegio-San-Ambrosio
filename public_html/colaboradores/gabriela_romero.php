@@ -78,7 +78,7 @@
         <div class="colaborador-info">
             <h1>Rectora</h1>
             <h2>Gabriela María Romero</h2>
-            <p>Doctora en Psicología Social</p>
+            <p>Doctora en Psicología Social (U.K)</p>
         </div>
         <div class="colaborador-foto">
             <img src="../imagenes/Gabriela_maria_romero.png" alt="Foto de Gabriela María Romero">

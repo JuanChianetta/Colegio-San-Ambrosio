@@ -92,10 +92,13 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Técnica Superior en Psicología social</strong>
+            </li>
+            <li>
                 <strong>Especialista en Educación Sexual Integral</strong>
             </li>
             <li>
-                <strong>Acompañante Terapéutico</strong>
+                <strong>Acompañante terapéutico</strong>
             </li>
         </ul>
     </section>

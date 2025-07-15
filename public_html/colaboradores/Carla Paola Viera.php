@@ -92,13 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Facilitadora Tecnológica</strong>
+            </li>
+            <li>
                 <strong>Especialista en Patrimonio Cultural y Natural del Gobierno de la Ciudad de Buenos Aires</strong>
             </li>
             <li>
                 <strong>Especialista en Ciencias Naturales</strong>
             </li>
             <li>
-                <strong>Especialista en Tecnología, Informática y Comunicación en Educación Inicial</strong>
+                <strong>Especialista en Tecnología, informática y comunicación en Educación Inicial</strong>
             </li>
             <li>
                 <strong>Profesora de Educación Inicial</strong>

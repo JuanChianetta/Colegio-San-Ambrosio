@@ -92,25 +92,28 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Postgrado en Psicoanálisis</strong>
+                <strong>Licenciado en psicología</strong>
             </li>
             <li>
-                <strong>Centro de Salud Mental N° 3</strong>
+                <strong>Post grado en Psicoanálisis</strong>
             </li>
             <li>
-                <strong>Actor Nacional - Egresado de la UNA</strong>
+                <strong>Centro de salud mental N° 3</strong>
             </li>
             <li>
-                <strong>Conservatorio Nacional de Arte Dramático</strong>
+                <strong>Actor nacional - Egresado de la UNA.</strong>
             </li>
             <li>
-                <strong>Curso de Teatro Pompeyo Audert</strong>
+                <strong>Conservatorio nacional de arte dramático</strong>
             </li>
             <li>
-                <strong>Curso de Teatro Escuela La Odisea</strong>
+                <strong>Curso de teatro Pompeyo Audert</strong>
             </li>
             <li>
-                <strong>Taller: Gimnasio de Improvisación en Camarín de las Musas</strong>
+                <strong>Curso de teatro Escuela La Odisea</strong>
+            </li>
+            <li>
+                <strong>Taller : Gimnasio de Improvisación en Camarín de las Musas.</strong>
             </li>
         </ul>
     </section>

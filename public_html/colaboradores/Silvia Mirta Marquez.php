@@ -88,6 +88,14 @@
     <section class="quote-banner">
         <p>"La educación es el arma más poderosa que puedes usar para cambiar el mundo."</p>
     </section>
+     <section class="trayectoria-section">
+        <h2 class="trayectoria-title">Trayectoria</h2>
+        <ul class="trayectoria-list">
+            <li>
+                <strong>Licenciada en Psicología</strong>
+            </li>
+        </ul>
+    </section>
     <style>
         .trayectoria-section {
             padding: 40px;

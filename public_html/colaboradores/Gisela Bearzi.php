@@ -92,16 +92,19 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora para la Enseñanza Inicial</strong>
+                <strong>Prof. Para la enseñanza primaria.</strong>
             </li>
             <li>
-                <strong>Profesora de Yoga</strong>
+                <strong>Prof. Para la enseñanza inicial.</strong>
             </li>
             <li>
-                <strong>Postgrado en Gestión y Administración de Escuelas</strong>
+                <strong>Prof. de Yoga.</strong>
             </li>
             <li>
-                <strong>Fonoaudióloga</strong>
+                <strong>Posgrado en Gestión y administración de escuelas.</strong>
+            </li>
+            <li>
+                <strong>Fonoaudióloga.</strong>
             </li>
         </ul>
     </section>

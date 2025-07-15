@@ -92,7 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Operador en Psicología Social</strong>
+                <strong>Profesor de Psicología Social</strong>
+            </li>
+            <li>
+                <strong>Operador en Psicología social</strong>
             </li>
         </ul>
     </section>

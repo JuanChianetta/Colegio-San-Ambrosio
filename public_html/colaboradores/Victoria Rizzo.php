@@ -92,7 +92,7 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Coach Ontológico</strong>
+                <strong>Psicologa social |Coach ontológico</strong>
             </li>
         </ul>
     </section>

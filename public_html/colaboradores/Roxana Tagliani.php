@@ -92,10 +92,13 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora de Juegos Teatrales</strong>
+                <strong>Profesora de expresión y lenguaje Corporal</strong>
             </li>
             <li>
-                <strong>Instructora de Gimnasia para el Desarrollo de la Salud</strong>
+                <strong>Profesora de juegos teatrales</strong>
+            </li>
+            <li>
+                <strong>Instructora de gimnasia para el desarrollo de la salud</strong>
             </li>
             <li>
                 <strong>Actriz</strong>

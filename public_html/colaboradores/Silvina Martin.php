@@ -92,13 +92,16 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Diplomatura en Jardín Maternal</strong>
+                <strong>Profesora de Nivel Inicial</strong>
             </li>
             <li>
-                <strong>Diplomatura en Gestión Institucional</strong>
+                <strong>Diplomatura en jardín maternal</strong>
             </li>
             <li>
-                <strong>Licenciada en Nivel Inicial</strong>
+                <strong>Diplomatura en gestión institucional</strong>
+            </li>
+            <li>
+                <strong>Lic. en Nivel Inicial</strong>
             </li>
         </ul>
     </section>

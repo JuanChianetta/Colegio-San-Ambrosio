@@ -92,6 +92,9 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Licenciado en Psicopedagogía</strong>
+            </li>
+            <li>
                 <strong>Psicólogo Social</strong>
             </li>
             <li>
@@ -104,7 +107,7 @@
                 <strong>Especialista en Educación de Contextos de Encierro</strong>
             </li>
             <li>
-                <strong>Tramo de Formación Pedagógica para Nivel Superior</strong>
+                <strong>Tramo de Form. Pedag. para Nivel Superior</strong>
             </li>
             <li>
                 <strong>Profesor en Lengua y Literatura</strong>
@@ -116,7 +119,7 @@
                 <strong>Bibliotecario de Instituciones Educativas</strong>
             </li>
             <li>
-                <strong>Profesor de EGB1 y 2</strong>
+                <strong>Profesor de EGB1y2</strong>
             </li>
         </ul>
     </section>

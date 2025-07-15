@@ -92,6 +92,12 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Psicologa UBA</strong>
+            </li>
+            <li>
+                <strong>Psicóloga social</strong>
+            </li>
+            <li>
                 <strong>Actriz</strong>
             </li>
             <li>

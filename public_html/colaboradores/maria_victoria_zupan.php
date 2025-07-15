@@ -92,13 +92,19 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
+                <strong>Lic. en Educación Inicial</strong>
+            </li>
+            <li>
                 <strong>Diplomada Superior en Gestión de Instituciones Educativas</strong>
             </li>
             <li>
                 <strong>Técnica Superior en Relaciones Públicas, Ceremonial y Protocolo</strong>
             </li>
             <li>
-                <strong>Profesora de Educación Inicial</strong>
+                <strong>Prof. de Educación Inicial</strong>
+            </li>
+            <li>
+                <strong>Coordinador de carrera</strong>
             </li>
         </ul>
     </section>

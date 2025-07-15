@@ -92,7 +92,10 @@
         <h2 class="trayectoria-title">Trayectoria</h2>
         <ul class="trayectoria-list">
             <li>
-                <strong>Profesora de Educación Preescolar</strong>
+                <strong>Lic. en Ciencias de la Educación</strong>
+            </li>
+            <li>
+                <strong>Prof. de Educación Preescolar</strong>
             </li>
             <li>
                 <strong>Catequista</strong>
