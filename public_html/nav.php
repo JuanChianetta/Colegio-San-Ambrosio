@@ -39,20 +39,20 @@
             N I V E L E S
           </a>
           <ul class="dropdown-menu" aria-labelledby="nivelesDropdown">
-            <li><a class="dropdown-item" href="/public_html/psicologia_social.php">Psicología Social</a></li>
-            <li><a class="dropdown-item" href="/public_html/prof_educacion_inicial.php">Profesorado de Educación Inicial</a></li>
-            <li><a class="dropdown-item" href="/public_html/tramo_pedagogico.php">Tramo Pedagogico</a></li>
-            <li><a class="dropdown-item" href="/public_html/secundaria.php">Secundario</a></li>
+            <li><a class="dropdown-item" href="/psicologia_social.php">Psicología Social</a></li>
+            <li><a class="dropdown-item" href="/prof_educacion_inicial.php">Profesorado de Educación Inicial</a></li>
+            <li><a class="dropdown-item" href="/tramo_pedagogico.php">Tramo Pedagogico</a></li>
+            <li><a class="dropdown-item" href="/secundaria.php">Secundario</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/public_html/propuestas.php">CARRERAS Y SECUNDARIO</a>
+          <a class="nav-link text-white" href="/propuestas.php">CARRERAS Y SECUNDARIO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="/public_html/contacto.php">C O N T A C T O</a>
+          <a class="nav-link text-white" href="/contacto.php">C O N T A C T O</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link-admisiones btn btn-outline-light" href="/public_html/admisiones.php">A D M I S I O N E S</a>
+          <a class="nav-link-admisiones btn btn-outline-light" href="/admisiones.php">A D M I S I O N E S</a>
         </li>
       </ul>
     </div>
