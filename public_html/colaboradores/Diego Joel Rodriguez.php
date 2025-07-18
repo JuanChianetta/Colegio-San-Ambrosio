@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Colaborador</title>
     <link rel="icon" type="image/png" href="../imagenes/favicon.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
     <style>
         .colaborador-detalle {
@@ -16,38 +18,45 @@
             max-width: 1200px;
             margin: auto;
         }
+
         .colaborador-info {
             flex: 1;
             text-align: left;
             margin-right: 20px;
         }
+
         .colaborador-info h1 {
             font-weight: bold;
             color: #1E3A8A;
             font-size: 2.5rem;
             margin-bottom: 20px;
         }
+
         .colaborador-info h2 {
             font-weight: bold;
             font-size: 2rem;
             margin-bottom: 10px;
         }
+
         .colaborador-info p {
             font-size: 1.2rem;
             color: #333;
         }
+
         .colaborador-foto {
             flex: 1;
             display: flex;
             justify-content: center;
             position: relative;
         }
+
         .colaborador-foto img {
             max-width: 300px;
             height: auto;
             border-radius: 8px;
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
         }
+
         .foto-overlay {
             position: absolute;
             bottom: 20px;
@@ -57,6 +66,7 @@
             background-color: #F9A826;
             z-index: -1;
         }
+
         .quote-banner {
             background-color: #f0f0f0;
             border-radius: 12px;
@@ -71,6 +81,7 @@
         }
     </style>
 </head>
+
 <body>
     <?php include '../nav.php'; ?>
     <div style="height: 20px;"></div>
@@ -90,32 +101,49 @@
     </section>
     <section class="trayectoria-section">
         <h2 class="trayectoria-title">Trayectoria</h2>
-        <ul class="trayectoria-list">
-            <li>
-                <strong>Técnico Superior en Psicología Social</strong>
-            </li>
-            <li>
-                <strong>Técnico en Comunicación Social</strong>
-            </li>
-            <li>
-                <strong>Diplomatura en Educación Sexual Integral</strong>
-            </li>
-            <li>
-                <strong>Programador Neurolingüístico</strong>
-            </li>
-            <li>
-                <strong>Coach Ontológico</strong>
-            </li>
-            <li>
-                <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
-            </li>
-            <li>
-                <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
-            </li>
-            <li>
-                <strong>Mindfulness Master</strong>
-            </li>
-        </ul>
+       <ul class="trayectoria-list">
+    <li>
+        <strong>Técnico Superior en Psicología Social</strong>
+    </li>
+    <li>
+        <strong>Técnico en Comunicación Social</strong>
+    </li>
+    <li>
+        <strong>Diplomatura en Educación Sexual Integral</strong>
+    </li>
+    <li>
+        <strong>Programador Neurolingüístico</strong>
+    </li>
+    <li>
+        <strong>Coach Ontológico</strong>
+    </li>
+    <li>
+        <strong>Postgrado en Comunicación y Cultura (Flacso)</strong>
+    </li>
+    <li>
+        <strong>Formación en Neurociencia y Psicología Transpersonal (España)</strong>
+    </li>
+    <li>
+        <strong>Mindfulness Master</strong>
+    </li>
+    <li>
+        <strong>Operador en Psicología Social</strong>
+    </li>
+    <li>
+        <strong>Trabajo como psicólogo social en: Psicólogo social del programa Cine en Cárceles, Instituto Nacional de Cine y Artes Audiovisuales.</strong>
+    </li>
+    <li>
+        <strong>Comisión Cascos Blancos – Ministerio de Relaciones Exteriores y Culto de la Nación Argentina.</strong>
+    </li>
+    <li>
+        <strong>Programa de las Naciones Unidas para el Desarrollo (PNUD).</strong>
+    </li>
+    <li>
+        <strong>Asesor en Programa Agenda 2030 (ONU) – Dirección General de Relaciones Internacionales – Consejo Nacional de Políticas Sociales.</strong>
+    </li>
+</ul>
+
+
     </section>
     <style>
         .trayectoria-section {
@@ -123,6 +151,7 @@
             margin: 50px auto;
             max-width: 900px;
         }
+
         .trayectoria-title {
             text-align: center;
             font-weight: bold;
@@ -133,10 +162,12 @@
             transform: translateY(-30px);
             transition: all 1s ease-out;
         }
+
         .trayectoria-list {
             list-style: none;
             padding: 0;
         }
+
         .trayectoria-list li {
             margin-bottom: 20px;
             text-align: left;
@@ -146,16 +177,19 @@
             transition: all 0.8s ease-out;
             z-index: 1;
         }
+
         .trayectoria-list strong {
             display: block;
             font-weight: bold;
             font-size: 1.25rem;
         }
+
         .in-view {
             visibility: visible;
             opacity: 1;
             transform: translateY(0);
         }
+
         .in-view-list {
             visibility: visible !important;
             opacity: 1 !important;
@@ -195,4 +229,5 @@
     <?php include '../footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
