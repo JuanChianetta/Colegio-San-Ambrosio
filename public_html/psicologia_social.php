@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/public_html/imagenes/favicon.png" />
+    <link rel="icon" type="image/png" href="imagenes/favicon.png" />
     <style>
         .titulo1{
             font-size: 3rem; /* Ajusta tamaño del título */
@@ -414,6 +414,17 @@
                         <img src="./imagenes/Ignacio Cercone.jpg" class="card-img-top collaborator-image" alt="Ignacio Cercone">
                         <div class="card-body">
                             <h5 class="card-title">Ignacio Cercone</h5>
+                            <p class="card-text">Docente</p>
+                            <a href="./colaboradores/Ignacio Cercone.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lorena Michelle Figueredo Sánchez -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Lorena Michelle Figueredo Sánchez.php', '_blank')">
+                        <img src="./imagenes/Lorena Michelle Figueredo Sanchez.png" class="card-img-top collaborator-image" alt="Lorena Michelle Figueredo Sanchez">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorena Michelle Figueredo Sánchez</h5>
                             <p class="card-text">Docente</p>
                             <a href="./colaboradores/Ignacio Cercone.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>

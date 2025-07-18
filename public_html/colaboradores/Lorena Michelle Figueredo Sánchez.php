@@ -81,7 +81,7 @@
             <p>Técnica Superior en Psicología Social</p>
         </div>
         <div class="colaborador-foto">
-            <img src="../imagenes/Lorena Michelle Figueredo Sánchez.jpg" alt="Foto de Lorena Michelle Figueredo Sánchez">
+            <img src="../imagenes/Lorena Michelle Figueredo Sanchez.png" alt="Foto de Lorena Michelle Figueredo Sánchez">
             <div class="foto-overlay"></div>
         </div>
     </section>
