@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Colaborador - Irma Lema</title>
+    <link rel="icon" type="image/png" href="../imagenes/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .colaborador-detalle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .colaborador-info {
+            flex: 1;
+            text-align: left;
+            margin-right: 20px;
+        }
+        .colaborador-info h1 {
+            font-weight: bold;
+            color: #1E3A8A;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .colaborador-info h2 {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .colaborador-info p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .colaborador-foto {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        .colaborador-foto img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .foto-overlay {
+            position: absolute;
+            bottom: 20px;
+            right: -30px;
+            width: 300px;
+            height: 100px;
+            background-color: #F9A826;
+            z-index: -1;
+        }
+        .quote-banner {
+            background-color: #f0f0f0;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 1000px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-style: italic;
+            color: black;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .trayectoria-section {
+            padding: 40px;
+            margin: 50px auto;
+            max-width: 900px;
+        }
+        .trayectoria-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-30px);
+            transition: all 1s ease-out;
+        }
+        .trayectoria-list {
+            list-style: none;
+            padding: 0;
+        }
+        .trayectoria-list li {
+            margin-bottom: 20px;
+            text-align: left;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: all 0.8s ease-out;
+            z-index: 1;
+        }
+        .trayectoria-list strong {
+            display: block;
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+        .in-view {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .in-view-list {
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: translateX(0);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <?php include '../nav.php'; ?>
+    <div style="height: 20px;"></div>
+    <section class="colaborador-detalle">
+        <div class="colaborador-info">
+            <h1>Profesora</h1>
+            <h2>Irma Lema</h2>
+            <p>Psicóloga Social</p>
+        </div>
+        <div class="colaborador-foto">
+            <img src="../imagenes/Irma Lema.jpeg" alt="Foto de Irma Lema">
+            <div class="foto-overlay"></div>
+        </div>
+    </section>
+    <section class="quote-banner">
+        <p>"La psicología social nos enseña a construir comunidades más justas y solidarias."</p>
+    </section>
+    <section class="trayectoria-section">
+        <h2 class="trayectoria-title in-view">Trayectoria</h2>
+        <ul class="trayectoria-list">
+            <li class="in-view-list">
+                <strong>Psicóloga Social</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Referente ACAP</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Post Título Formación Pedagógica Nivel Medio</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Profesora de Psicología Social Nivel Medio y Nivel Superior</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Técnica en Comunicación y Psicología Social</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Diplomado Latinoamericano en Educación en Valores Humanos</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Catequista, Animador Pastoral y Agente de Pastoral</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Acompañante Terapéutica</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Auxiliar Maestra Jardinera y Primera Infancia</strong>
+            </li>
+            <li class="in-view-list">
+                <strong>Integrante del Parlamento Mundial de Educación</strong>
+            </li>
+        </ul>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const title = document.querySelector(".trayectoria-title");
+            const listItems = document.querySelectorAll(".trayectoria-list li");
+            const observerOptions = { threshold: 0.5 };
+            const titleObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("in-view");
+                        titleObserver.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            titleObserver.observe(title);
+            const listObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("in-view-list");
+                        listObserver.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            listItems.forEach(item => { listObserver.observe(item); });
+        });
+    </script>
+    <?php include '../footer.php'; ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
