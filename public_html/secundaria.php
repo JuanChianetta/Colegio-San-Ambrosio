@@ -59,7 +59,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Di Chiazza Marisa</h5>
                             <p class="card-text"></p>
-                            <a href="./colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/di_chiazza_marisa.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Cobo Marisa Andrea</h5>
                             <p class="card-text"></p>
-                            <a href="./colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/cobo marisa andrea.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Robles Valeria</h5>
                             <p class="card-text"></p>
-                            <a href="./colaboradores/maria_jose_sgalai.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                            <a href="./colaboradores/robles valeria.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
                         </div>
                     </div>
                 </div>
