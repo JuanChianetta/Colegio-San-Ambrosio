@@ -54,7 +54,7 @@
             <div class="row row-container">
                 <!-- Di Chiazza Marisa -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('./colaboradores/di_chiazza_marisa.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/di chiazza marisa.php', '_blank')">
                         <img src="./imagenes/Di Chiazza Marisa.jpeg" class="card-img-top collaborator-image" alt="Di Chiazza Marisa">
                         <div class="card-body">
                             <h5 class="card-title">Di Chiazza Marisa</h5>
@@ -65,7 +65,7 @@
                 </div>
                 <!-- Cobo Marisa Andrea -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('./colaboradores/cobo_marisa_andrea.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/cobo marisa andrea.php', '_blank')">
                         <img src="./imagenes/Cobo marisa Andrea.jpeg" class="card-img-top collaborator-image" alt="Cobo Marisa Andrea">
                         <div class="card-body">
                             <h5 class="card-title">Cobo Marisa Andrea</h5>
@@ -76,7 +76,7 @@
                 </div>
                 <!-- Robles Valeria -->
                 <div class="col-md-4">
-                    <div class="card collaborator-card" onclick="window.open('./colaboradores/robles_valeria.php', '_blank')">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/robles valeria.php', '_blank')">
                         <img src="./imagenes/Robles Valeria.jpeg" class="card-img-top collaborator-image" alt="Robles Valeria">
                         <div class="card-body">
                             <h5 class="card-title">Robles Valeria</h5>
