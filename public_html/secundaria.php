@@ -42,6 +42,111 @@
         </div>
     </section>
 
+ <section class="welcome-section">
+        <div class="container">
+            <h1 class="welcome-title">Nuestros colaboradores</h1>
+            <!-- <p class="welcome-subtitle">Pasos a seguir para conocernos e iniciar el proceso de admisión:</p> -->
+        </div>
+    </section>
+
+<section class="collaborators-section">
+        <div class="container">
+            <div class="row row-container">
+                <!-- Di Chiazza Marisa -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/di_chiazza_marisa.php', '_blank')">
+                        <img src="./imagenes/Di Chiazza Marisa.jpeg" class="card-img-top collaborator-image" alt="Di Chiazza Marisa">
+                        <div class="card-body">
+                            <h5 class="card-title">Di Chiazza Marisa</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/gabriela_romero.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cobo Marisa Andrea -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/cobo_marisa_andrea.php', '_blank')">
+                        <img src="./imagenes/Cobo marisa Andrea.jpeg" class="card-img-top collaborator-image" alt="Cobo Marisa Andrea">
+                        <div class="card-body">
+                            <h5 class="card-title">Cobo Marisa Andrea</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/maria_victoria_zupan.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Robles Valeria -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/robles_valeria.php', '_blank')">
+                        <img src="./imagenes/Robles Valeria.jpeg" class="card-img-top collaborator-image" alt="Robles Valeria">
+                        <div class="card-body">
+                            <h5 class="card-title">Robles Valeria</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/maria_jose_sgalai.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jaras, Viviana Patricia -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Jaras, Viviana Patricia.php', '_blank')">
+                        <img src="./imagenes/Jaras, Viviana Patricia.jpeg" class="card-img-top collaborator-image" alt="Jaras, Viviana Patricia">
+                        <div class="card-body">
+                            <h5 class="card-title">Jaras, Viviana Patricia</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/Jaras, Viviana Patricia.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Memoli, María Milagros  -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Memoli, María Milagros.php', '_blank')">
+                        <img src="./imagenes/Memoli María Milagros.jpeg" class="card-img-top collaborator-image" alt="Memoli, María Milagros">
+                        <div class="card-body">
+                            <h5 class="card-title">Memoli María Milagros</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/Memoli María Milagros.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Viale, Claudio Enrique. -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Viale, Claudio Enrique.php', '_blank')">
+                        <img src="./imagenes/Viale Claudio Enrique.jpeg" class="card-img-top collaborator-image" alt="Viale, Claudio Enrique.">
+                        <div class="card-body">
+                            <h5 class="card-title">Viale Claudio Enrique.</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/Viale Claudio Enrique.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ignacio Andrés Cercone. -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Ignacio Andrés Cercone.php', '_blank')">
+                        <img src="./imagenes/Ignacio Andrés Cercone.jpeg" class="card-img-top collaborator-image" alt="Ignacio Andrés Cercone">
+                        <div class="card-body">
+                            <h5 class="card-title">Ignacio Andrés Cercone</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/Ignacio Andrés Cercone.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prof. Irma Lema -->
+                <div class="col-md-4">
+                    <div class="card collaborator-card" onclick="window.open('./colaboradores/Irma Lema.php', '_blank')">
+                        <img src="./imagenes/Irma Lema.jpeg" class="card-img-top collaborator-image" alt="Irma Lema">
+                        <div class="card-body">
+                            <h5 class="card-title">Irma Lema</h5>
+                            <p class="card-text"></p>
+                            <a href="./colaboradores/Irma Lema.php" class="btn btn-link" target="_blank"><i class="bi bi-arrow-right-circle"></i> Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <section class="banner" style="background-image: url('./imagenes/edt/img_secundaria_12_edt.JPG');">
         <div class="banner-overlay">
             <!-- <h1 class="animate-text">Secundaria</h1> -->
